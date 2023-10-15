@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "root",
+  "type": "module",
+  "packageManager": "pnpm@8.8.0",
+  "engines": {
+    "node": ">=18.18.0",
+    "pnpm": ">=8.8.0"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/node": "^18.18.0",
+    "@vscode/vsce": "^2.21.1",
+    "eslint": "^8.50.0",
+    "eslint-presets": "^2.2.2",
+    "esno": "^0.17.0",
+    "lefthook": "^1.5.0",
+    "typescript": "~5.2.2",
+    "unbuild": "^2.0.0"
+  }
+}

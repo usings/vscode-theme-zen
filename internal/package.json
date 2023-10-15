@@ -1,0 +1,33 @@
+{
+  "name": "theme-zen",
+  "version": "0.0.1",
+  "author": "Joie <leaps@live.com>",
+  "publisher": "using",
+  "displayName": "Zen Theme",
+  "description": "A fleet like theme for VS Code",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zen",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zen.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usings/vscode-theme-zen"
+  },
+  "scripts": {
+    "dev": "esno watch src/index.ts",
+    "build": "esno src/index.ts",
+    "release": "vsce publish --no-dependencies"
+  }
+}
