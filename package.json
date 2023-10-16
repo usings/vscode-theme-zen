@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "root",
+  "name": "theme",
   "type": "module",
   "packageManager": "pnpm@8.8.0",
   "engines": {
@@ -13,6 +13,7 @@
     "@commitlint/config-conventional": "^17.7.0",
     "@types/node": "^18.18.0",
     "@vscode/vsce": "^2.21.1",
+    "changesets-commit": "^0.0.1",
     "eslint": "^8.50.0",
     "eslint-presets": "^2.2.2",
     "esno": "^0.17.0",
