@@ -6,7 +6,7 @@
 	"version": "0.0.0",
     "configurations": [
         {
-            "name": "theme-zzz",
+            "name": "theme-zen",
             "type": "extensionHost",
             "request": "launch",
             "args": [
