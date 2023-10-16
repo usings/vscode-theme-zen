@@ -11,7 +11,7 @@ mkdir(resolved('../themes'), { recursive: true })
       resolved('../themes/zen.json'),
       `${JSON.stringify(generateTheme({
         type: 'dark',
-        name: 'Zzz',
+        name: 'Zen',
       }), undefined, 2)}\n`,
     ),
   ]))
