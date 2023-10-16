@@ -5,7 +5,7 @@
   "publisher": "using",
   "displayName": "Zen Theme",
   "description": "A fleet like theme for VS Code",
-  "icon": "icon.png",
+  "icon": "assets/icon.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -17,7 +17,7 @@
       {
         "label": "zen",
         "uiTheme": "vs-dark",
-        "path": "./themes/zen.json"
+        "path": "themes/zen.json"
       }
     ]
   },
