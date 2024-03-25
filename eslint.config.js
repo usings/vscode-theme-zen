@@ -1,10 +1,3 @@
-import { defineFlatConfig, presetBasic } from 'eslint-presets'
+import { defineConfig } from '@witheslint/core'
 
-export default defineFlatConfig([
-  presetBasic({ enableTs: true }),
-  {
-    rules: {
-      'unicorn/prefer-top-level-await': 'off',
-    },
-  },
-])
+export default defineConfig()
