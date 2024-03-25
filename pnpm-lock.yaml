@@ -23,9 +23,9 @@ importers:
       '@vscode/vsce':
         specifier: ^2.21.1
         version: 2.21.1
-      changesets-commit:
-        specifier: ^0.0.1
-        version: 0.0.1
+      changesets-helper:
+        specifier: ^1.0.0
+        version: 1.0.0
       eslint:
         specifier: ^8.50.0
         version: 8.51.0
@@ -1908,8 +1908,8 @@ packages:
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: true
 
-  /changesets-commit@0.0.1:
-    resolution: {integrity: sha512-Y01Kdj4a3KqLb38dev3bZdCn5TRJq/Hc+WsYgLitdL5jr+mOEu1JsxzsErn4sEm6VE165LJBwoebjOtNNL/s6Q==}
+  /changesets-helper@1.0.0:
+    resolution: {integrity: sha512-ggaN9a1A2I2yO62fxn2YaABC1ZnCjdZ61C8gJeextHuIyJEmjG0d9HiIgpREUuzNn8QEWlQ18gyKZfSPrd+4Lw==}
     dependencies:
       outdent: 0.8.0
     dev: true
