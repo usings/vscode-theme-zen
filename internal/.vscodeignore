@@ -1,7 +1,7 @@
 .vscode
 .idea
 .DS_Store
-src
 
 *.vsix
+scripts
 tsconfig.json

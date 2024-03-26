@@ -1,12 +1,10 @@
 {
+  "include": ["scripts/*.ts"],
   "compilerOptions": {
     "module": "esnext",
+    "target": "esnext",
     "lib": ["DOM", "ESNext"],
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
   }
 }

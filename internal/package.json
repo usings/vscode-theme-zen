@@ -26,8 +26,8 @@
     "url": "https://github.com/usings/vscode-theme-zen"
   },
   "scripts": {
-    "dev": "esno watch src/index.ts",
-    "build": "esno src/index.ts",
+    "dev": "esno watch scripts/index.ts",
+    "build": "esno scripts/index.ts",
     "release": "vsce publish --no-dependencies"
   }
 }
