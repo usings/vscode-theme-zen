@@ -24,7 +24,7 @@ export const patcherVue = () => ([
       'entity.name.tag.style.html.vue',
     ],
     settings: {
-      foreground: '#00BCA2DD',
+      foreground: '#00BCAADD',
       fontStyle: 'bold',
     },
   },

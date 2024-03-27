@@ -1,4 +1,10 @@
-import { patcherBase, patcherComment, patcherHTML, patcherMarkdown, patcherRust, patcherVue, patcherYAML } from './configs'
+import {
+  patcherBase, patcherComment,
+  patcherGo,
+  patcherHTML, patcherMarkdown,
+  patcherRuby, patcherRust,
+  patcherVue, patcherXML, patcherYAML,
+} from './tokens'
 
 export function generator({ type, name }) {
   return {
@@ -21,8 +27,8 @@ export function generator({ type, name }) {
       // Button control
       'button.border': '#00000000',
       'button.foreground': '#000000EE',
-      'button.background': '#81D2CEAA',
-      'button.hoverBackground': '#81D2CECC',
+      'button.background': '#81D2CECC',
+      'button.hoverBackground': '#81D2CEEE',
       // Dropdown control
       'dropdown.background': '#050505',
       'dropdown.border': '#FFFFFF11',
@@ -79,7 +85,7 @@ export function generator({ type, name }) {
       // Editor Groups & Tabs
       'editorGroupHeader.tabsBackground': '#050505',
       'editorGroupHeader.tabsBorder': '#FFFFFF11',
-      'tab.activeBackground': '#0D0D0D',
+      'tab.activeBackground': '#0F0F0F',
       'tab.activeBorderTop': '#81D2CEEE',
       'tab.inactiveBackground': '#050505',
       'tab.border': '#FFFFFF11',
@@ -153,6 +159,8 @@ export function generator({ type, name }) {
       'merge.incomingContentBackground': '#7098D43F',
       // Panel colors
       'panel.background': '#050505',
+      'panel.border': '#FFFFFF11',
+      'panelTitle.activeBorder': '#81D2CECC',
       // Status bar colors
       'statusBar.background': '#050505',
       'statusBar.foreground': '#777777',
@@ -170,20 +178,21 @@ export function generator({ type, name }) {
       'statusBarItem.errorForeground': '#000000',
       'statusBarItem.warningBackground': '#D8B544AA',
       'statusBarItem.warningForeground': '#000000',
+      'statusBarItem.remoteHoverForeground': '#FFFFFFDD',
       // Title bar colors
       'titleBar.activeBackground': '#050505',
       'titleBar.inactiveBackground': '#0d0d0d',
       'titleBar.border': '#FFFFFF11',
       // Menu bar colors
-      'menu.foreground': '#BBBBBB',
+      'menu.foreground': '#BBBBBBDD',
       'menu.background': '#050505',
       'menu.separatorBackground': '#FFFFFF11',
       // Command Center colors
       'commandCenter.activeBackground': '#FFFFFF11',
       'commandCenter.border': '#FFFFFF11',
       // Banner colors
-      'banner.foreground': '#DDDDDD',
-      'banner.background': '#292929',
+      'banner.foreground': '#BBBBBBDD',
+      'banner.background': '#050505',
       // Quick picker colors
       'pickerGroup.foreground': '#81D2CEEE',
       'quickInput.background': '#050505',
@@ -207,7 +216,7 @@ export function generator({ type, name }) {
       'terminal.ansiWhite': '#ADADAD',
       'terminal.ansiYellow': '#B3AA8F',
       'terminal.selectionBackground': '#292929',
-      'terminal.tab.activeBorder': '#AAAAAA',
+      'terminal.tab.activeBorder': '#00000000',
       // Git colors
       'gitDecoration.addedResourceForeground': '#81D2CEEE',
       'gitDecoration.modifiedResourceForeground': '#E7D38FBB',
@@ -221,16 +230,18 @@ export function generator({ type, name }) {
     tokenColors: [
       ...patcherBase(),
       ...patcherComment(),
-      ...patcherMarkdown(),
+      ...patcherGo(),
       ...patcherHTML(),
-      ...patcherYAML(),
+      ...patcherMarkdown(),
+      ...patcherRuby(),
       ...patcherRust(),
       ...patcherVue(),
+      ...patcherXML(),
+      ...patcherYAML(),
     ],
     semanticHighlighting: true,
     semanticTokenColors: {
-      newOperator: '#BBBBBB99',
-      stringLiteral: '#E394DCBB',
+      stringLiteral: '#DD99AADD',
       customLiteral: '#EBC88DBB',
       numberLiteral: '#EBC88DBB',
     },

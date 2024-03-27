@@ -2,13 +2,13 @@ export const patcherYAML = () => ([
   {
     scope: ['entity.name.tag.yaml'],
     settings: {
-      foreground: '#81D2CEDD',
+      foreground: '#BBBBBBDD',
     },
   },
   {
     scope: ['string.unquoted.plain.out.yaml'],
     settings: {
-      foreground: '#A8B8EEDD',
+      foreground: '#AF9CFFDD',
     },
   },
 ])

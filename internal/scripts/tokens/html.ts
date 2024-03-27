@@ -24,7 +24,7 @@ export const patcherHTML = () => ([
       'punctuation.definition.entity.css',
     ],
     settings: {
-      foreground: '#A8B8EEDD',
+      foreground: '#AF9CFFDD',
     },
   },
   {
@@ -33,8 +33,17 @@ export const patcherHTML = () => ([
       'support.class.component',
     ],
     settings: {
-      foreground: '#00BCA2DD',
+      foreground: '#00BCAADD',
       fontStyle: 'bold',
+    },
+  },
+  {
+    scope: [
+      'variable.scss',
+      'support.other.variable.less',
+    ],
+    settings: {
+      foreground: '#86C0FFEE',
     },
   },
 ])

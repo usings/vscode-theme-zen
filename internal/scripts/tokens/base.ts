@@ -26,10 +26,12 @@ export const patcherBase = () => ([
       'variable.language.this',
       'variable.language.super',
       'variable.language.self',
+      'variable.language.special.self',
+      'keyword.operator.new',
     ],
     settings: {
       foreground: '#BBBBBBAA',
-      fontStyle: 'bold italic',
+      fontStyle: 'bold',
     },
   },
   {
@@ -39,7 +41,8 @@ export const patcherBase = () => ([
       'string.unquoted.plain',
     ],
     settings: {
-      foreground: '#DD99AACC',
+      // foreground: '#E394DCDD',
+      foreground: '#DD99AADD',
     },
   },
   {
@@ -47,15 +50,16 @@ export const patcherBase = () => ([
       'string.regexp',
     ],
     settings: {
-      foreground: '#5DB4BDBB',
+      foreground: '#5DB4BDCC',
     },
   },
   {
     scope: [
       'keyword.control',
+      'keyword.operator.ternary',
       'punctuation.accessor',
-      'storage.type',
       'storage.modifier',
+      'storage.type',
     ],
     settings: {
       foreground: '#BBBBBB99',
@@ -63,7 +67,15 @@ export const patcherBase = () => ([
   },
   {
     scope: [
-      'meta.type.annotation',
+      'keyword.control.at-rule',
+      'keyword.control.directive',
+    ],
+    settings: {
+      foreground: '#A8CC7CDD',
+    },
+  },
+  {
+    scope: [
       'keyword.other',
       'keyword.control.as',
       'keyword.control.export',
@@ -98,6 +110,8 @@ export const patcherBase = () => ([
   },
   {
     scope: [
+      'meta.type.annotation',
+      'meta.type.parameters',
       'entity.name.tag',
       'entity.name.type',
       'entity.name.type.class',
@@ -106,7 +120,7 @@ export const patcherBase = () => ([
       'entity.other.inherited-class',
     ],
     settings: {
-      foreground: '#88DDFFCC',
+      foreground: '#86C0FFEE',
     },
   },
   {
@@ -127,12 +141,23 @@ export const patcherBase = () => ([
       'support.variable.property',
     ],
     settings: {
-      foreground: '#A8B8EEDD',
+      foreground: '#AF9CFFDD',
+    },
+  },
+  {
+    scope: [
+      'meta.function-call',
+      'meta.embedded.line',
+      'meta.parameter-expansion',
+    ],
+    settings: {
+      foreground: '#BBBBBBDD',
     },
   },
   {
     scope: [
       'meta.method.declaration',
+      'meta.function-call.generic',
       'entity.name.function',
       'support.function',
     ],
@@ -170,7 +195,7 @@ export const patcherBase = () => ([
       'punctuation.definition.table',
     ],
     settings: {
-      foreground: '#A8B8EEDD',
+      foreground: '#81D2CEDD',
     },
   },
   {
@@ -204,8 +229,16 @@ export const patcherBase = () => ([
       'markup.fenced_code.block',
     ],
     settings: {
-      foreground: '#A8B8EEDD',
+      foreground: '#81D2CEDD',
     },
   },
-
+  {
+    scope: [
+      'markup.list.unnumbered',
+      'entity.name.variable.property',
+    ],
+    settings: {
+      foreground: '#AF9CFFDD',
+    },
+  },
 ])
