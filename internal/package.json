@@ -23,7 +23,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/usings/vscode-theme-zen"
+    "url": "https://github.com/usings/vscode-theme-zen",
+    "directory": "internal"
   },
   "scripts": {
     "dev": "esno watch scripts/index.ts",
