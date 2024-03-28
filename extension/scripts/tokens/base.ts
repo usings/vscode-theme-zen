@@ -103,6 +103,7 @@ export const patcherBase = () => ([
       'keyword.operator.logical',
       'keyword.operator.optional',
       'keyword.operator.relational',
+      'keyword.operator.type',
     ],
     settings: {
       foreground: '#BBBBBB99',

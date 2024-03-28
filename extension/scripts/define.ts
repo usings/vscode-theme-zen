@@ -1,12 +1,16 @@
 import {
   patcherBase, patcherComment,
-  patcherGo,
-  patcherHTML, patcherMarkdown,
+  patcherGo, patcherHTML, patcherMarkdown,
   patcherRuby, patcherRust,
   patcherVue, patcherXML, patcherYAML,
 } from './tokens'
 
-export function generator({ type, name }) {
+interface Options {
+  type: 'dark' | 'light'
+  name: string
+}
+
+export function defineTheme({ type, name }: Options) {
   return {
     type,
     name,
