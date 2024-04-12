@@ -5,8 +5,8 @@
   "author": "Joie <leaps@live.com>",
   "publisher": "using",
   "displayName": "Zen Theme",
-  "description": "A fleet like theme for VS Code",
-  "icon": "assets/icon.png",
+  "description": "A fleet like theme for VS Code.",
+  "icon": "assets/zen.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -16,9 +16,16 @@
   "contributes": {
     "themes": [
       {
-        "label": "zen",
+        "label": "Zen Dark",
         "uiTheme": "vs-dark",
-        "path": "themes/zen.json"
+        "path": "themes/color-zen.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "zen-dark",
+        "label": "Zen Dark",
+        "path": "themes/icon-dark.json"
       }
     ]
   },

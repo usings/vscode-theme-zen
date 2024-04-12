@@ -13,7 +13,7 @@ async function compiler(output: string, content: object) {
 await mkdir(resolved('../themes'), { recursive: true })
   .then(() => Promise.all(
     [
-      compiler('../themes/zen.json', defineTheme({ type: 'dark', name: 'Zen' })),
+      compiler('../themes/color-zen.json', defineTheme({ type: 'dark', name: 'Zen' })),
     ],
   ))
   .catch(() => exit(1))
