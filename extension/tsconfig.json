@@ -1,10 +1,24 @@
 {
-  "include": ["scripts/*.ts"],
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": ["**/node_modules/**", "**/dist/**"],
+  "include": ["**/*.ts"],
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
-    "lib": ["DOM", "ESNext"],
+    "lib": ["ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "useDefineForClassFields": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./themes/*"]
+    }
   }
 }

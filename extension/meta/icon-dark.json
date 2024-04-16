@@ -1,0 +1,1672 @@
+{
+  "hidesExplorerArrows": false,
+  "languageIds": {
+    "astro": "astro",
+    "code-text-binary": "binary",
+    "c": "c",
+    "clojure": "clojure",
+    "cobol": "cobol",
+    "coffeescript": "coffeescript",
+    "cpp": "cpp",
+    "csharp": "csharp",
+    "css": "css",
+    "csv": "csv",
+    "tsv": "csv",
+    "psv": "csv",
+    "cucumber": "cucumber",
+    "cuda-cpp": "cuda",
+    "dart": "dart",
+    "sql": "database",
+    "dhall": "dhall",
+    "django-html": "django",
+    "django-txt": "django",
+    "editorconfig": "editorconfig",
+    "elixir": "elixir",
+    "elm": "elm",
+    "erlang": "erlang",
+    "git": "git",
+    "git-commit": "git",
+    "git-rebase": "git",
+    "gleam": "gleam",
+    "go": "go",
+    "gdscript": "godot",
+    "graphql": "graphql",
+    "groovy": "groovy",
+    "haml": "haml",
+    "handlebars": "handlebars",
+    "haskell": "haskell",
+    "haxe": "haxe",
+    "hxml": "haxe",
+    "html": "html",
+    "java": "java",
+    "javascript": "javascript",
+    "javascriptreact": "javascript-x",
+    "hjson": "json",
+    "jupyter": "jupyter",
+    "tex": "latex",
+    "doctex": "latex",
+    "latex": "latex",
+    "latex-expl3": "latex",
+    "less": "less",
+    "lua": "lua",
+    "makefile": "makefile",
+    "markdown": "markdown",
+    "matlab": "matlab",
+    "nim": "nim",
+    "nimble": "nim",
+    "nix": "nix",
+    "nunjucks": "nunjucks",
+    "org": "org",
+    "perl": "perl",
+    "perl6": "perl",
+    "php": "php",
+    "postcss": "postcss",
+    "prolog": "prolog",
+    "ini": "properties",
+    "properties": "properties",
+    "spring-boot-properties": "properties",
+    "proto": "protobuf",
+    "jade": "pug",
+    "python": "python",
+    "r": "r",
+    "rsweave": "r",
+    "reason": "reason",
+    "reason_lisp": "reason",
+    "rescript": "rescript",
+    "ruby": "ruby",
+    "rust": "rust",
+    "sass": "sass",
+    "scss": "sass",
+    "scala": "scala",
+    "hlsl": "shader",
+    "glsl": "shader",
+    "wgsl": "shader",
+    "awk": "shell",
+    "bat": "shell",
+    "shellscript": "shell",
+    "powershell": "shell",
+    "solidity": "solidity",
+    "svelte": "svelte",
+    "svg": "svg",
+    "swift": "swift",
+    "terraform": "terraform",
+    "toml": "toml",
+    "twig": "twig",
+    "typescript": "typescript",
+    "typescriptreact": "typescript-x",
+    "shaderlab": "unity",
+    "v": "v",
+    "viml": "vim",
+    "testOutput": "visual-studio",
+    "vb": "visual-studio",
+    "vue": "vue",
+    "yaml": "yaml",
+    "spring-boot-properties-yaml": "yaml"
+  },
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "../assets/icons/dark/_file.svg"
+    },
+    "_folder": {
+      "iconPath": "../assets/icons/dark/_folder.svg"
+    },
+    "_root": {
+      "iconPath": "../assets/icons/dark/_root.svg"
+    },
+    "android": {
+      "iconPath": "../assets/icons/dark/android.svg"
+    },
+    "archive": {
+      "iconPath": "../assets/icons/dark/archive.svg"
+    },
+    "astro-config": {
+      "iconPath": "../assets/icons/dark/astro-config.svg"
+    },
+    "astro": {
+      "iconPath": "../assets/icons/dark/astro.svg"
+    },
+    "audio": {
+      "iconPath": "../assets/icons/dark/audio.svg"
+    },
+    "binary": {
+      "iconPath": "../assets/icons/dark/binary.svg"
+    },
+    "c-header": {
+      "iconPath": "../assets/icons/dark/c-header.svg"
+    },
+    "c": {
+      "iconPath": "../assets/icons/dark/c.svg"
+    },
+    "caddy": {
+      "iconPath": "../assets/icons/dark/caddy.svg"
+    },
+    "cargo-lock": {
+      "iconPath": "../assets/icons/dark/cargo-lock.svg"
+    },
+    "cargo": {
+      "iconPath": "../assets/icons/dark/cargo.svg"
+    },
+    "clojure": {
+      "iconPath": "../assets/icons/dark/clojure.svg"
+    },
+    "cmake": {
+      "iconPath": "../assets/icons/dark/cmake.svg"
+    },
+    "cobol": {
+      "iconPath": "../assets/icons/dark/cobol.svg"
+    },
+    "coffeescript": {
+      "iconPath": "../assets/icons/dark/coffeescript.svg"
+    },
+    "cpp": {
+      "iconPath": "../assets/icons/dark/cpp.svg"
+    },
+    "csharp": {
+      "iconPath": "../assets/icons/dark/csharp.svg"
+    },
+    "css": {
+      "iconPath": "../assets/icons/dark/css.svg"
+    },
+    "csv": {
+      "iconPath": "../assets/icons/dark/csv.svg"
+    },
+    "cucumber": {
+      "iconPath": "../assets/icons/dark/cucumber.svg"
+    },
+    "cuda": {
+      "iconPath": "../assets/icons/dark/cuda.svg"
+    },
+    "cypress": {
+      "iconPath": "../assets/icons/dark/cypress.svg"
+    },
+    "dart-generated": {
+      "iconPath": "../assets/icons/dark/dart-generated.svg"
+    },
+    "dart": {
+      "iconPath": "../assets/icons/dark/dart.svg"
+    },
+    "database": {
+      "iconPath": "../assets/icons/dark/database.svg"
+    },
+    "deno": {
+      "iconPath": "../assets/icons/dark/deno.svg"
+    },
+    "dependabot": {
+      "iconPath": "../assets/icons/dark/dependabot.svg"
+    },
+    "dhall": {
+      "iconPath": "../assets/icons/dark/dhall.svg"
+    },
+    "django": {
+      "iconPath": "../assets/icons/dark/django.svg"
+    },
+    "docker-compose": {
+      "iconPath": "../assets/icons/dark/docker-compose.svg"
+    },
+    "docker": {
+      "iconPath": "../assets/icons/dark/docker.svg"
+    },
+    "editorconfig": {
+      "iconPath": "../assets/icons/dark/editorconfig.svg"
+    },
+    "elixir": {
+      "iconPath": "../assets/icons/dark/elixir.svg"
+    },
+    "elm": {
+      "iconPath": "../assets/icons/dark/elm.svg"
+    },
+    "erlang": {
+      "iconPath": "../assets/icons/dark/erlang.svg"
+    },
+    "esbuild": {
+      "iconPath": "../assets/icons/dark/esbuild.svg"
+    },
+    "eslint": {
+      "iconPath": "../assets/icons/dark/eslint.svg"
+    },
+    "firebase": {
+      "iconPath": "../assets/icons/dark/firebase.svg"
+    },
+    "font": {
+      "iconPath": "../assets/icons/dark/font.svg"
+    },
+    "gatsby": {
+      "iconPath": "../assets/icons/dark/gatsby.svg"
+    },
+    "git": {
+      "iconPath": "../assets/icons/dark/git.svg"
+    },
+    "gitlab": {
+      "iconPath": "../assets/icons/dark/gitlab.svg"
+    },
+    "gitpod": {
+      "iconPath": "../assets/icons/dark/gitpod.svg"
+    },
+    "gleam": {
+      "iconPath": "../assets/icons/dark/gleam.svg"
+    },
+    "go": {
+      "iconPath": "../assets/icons/dark/go.svg"
+    },
+    "godot": {
+      "iconPath": "../assets/icons/dark/godot.svg"
+    },
+    "gomodsum": {
+      "iconPath": "../assets/icons/dark/gomodsum.svg"
+    },
+    "gradle": {
+      "iconPath": "../assets/icons/dark/gradle.svg"
+    },
+    "graphql": {
+      "iconPath": "../assets/icons/dark/graphql.svg"
+    },
+    "groovy": {
+      "iconPath": "../assets/icons/dark/groovy.svg"
+    },
+    "gulp": {
+      "iconPath": "../assets/icons/dark/gulp.svg"
+    },
+    "haml": {
+      "iconPath": "../assets/icons/dark/haml.svg"
+    },
+    "handlebars": {
+      "iconPath": "../assets/icons/dark/handlebars.svg"
+    },
+    "haskell": {
+      "iconPath": "../assets/icons/dark/haskell.svg"
+    },
+    "haxe": {
+      "iconPath": "../assets/icons/dark/haxe.svg"
+    },
+    "html": {
+      "iconPath": "../assets/icons/dark/html.svg"
+    },
+    "http": {
+      "iconPath": "../assets/icons/dark/http.svg"
+    },
+    "ignored": {
+      "iconPath": "../assets/icons/dark/ignored.svg"
+    },
+    "image": {
+      "iconPath": "../assets/icons/dark/image.svg"
+    },
+    "ionic": {
+      "iconPath": "../assets/icons/dark/ionic.svg"
+    },
+    "java": {
+      "iconPath": "../assets/icons/dark/java.svg"
+    },
+    "javascript-x": {
+      "iconPath": "../assets/icons/dark/javascript-x.svg"
+    },
+    "javascript": {
+      "iconPath": "../assets/icons/dark/javascript.svg"
+    },
+    "json": {
+      "iconPath": "../assets/icons/dark/json.svg"
+    },
+    "jupyter": {
+      "iconPath": "../assets/icons/dark/jupyter.svg"
+    },
+    "key": {
+      "iconPath": "../assets/icons/dark/key.svg"
+    },
+    "kotlin": {
+      "iconPath": "../assets/icons/dark/kotlin.svg"
+    },
+    "latex": {
+      "iconPath": "../assets/icons/dark/latex.svg"
+    },
+    "lefthook": {
+      "iconPath": "../assets/icons/dark/lefthook.svg"
+    },
+    "less": {
+      "iconPath": "../assets/icons/dark/less.svg"
+    },
+    "lisp": {
+      "iconPath": "../assets/icons/dark/lisp.svg"
+    },
+    "locked": {
+      "iconPath": "../assets/icons/dark/locked.svg"
+    },
+    "lua": {
+      "iconPath": "../assets/icons/dark/lua.svg"
+    },
+    "makefile": {
+      "iconPath": "../assets/icons/dark/makefile.svg"
+    },
+    "markdown-mdx": {
+      "iconPath": "../assets/icons/dark/markdown-mdx.svg"
+    },
+    "markdown": {
+      "iconPath": "../assets/icons/dark/markdown.svg"
+    },
+    "marko": {
+      "iconPath": "../assets/icons/dark/marko.svg"
+    },
+    "matlab": {
+      "iconPath": "../assets/icons/dark/matlab.svg"
+    },
+    "maven": {
+      "iconPath": "../assets/icons/dark/maven.svg"
+    },
+    "mermaid": {
+      "iconPath": "../assets/icons/dark/mermaid.svg"
+    },
+    "meson": {
+      "iconPath": "../assets/icons/dark/meson.svg"
+    },
+    "mjml": {
+      "iconPath": "../assets/icons/dark/mjml.svg"
+    },
+    "modernizr": {
+      "iconPath": "../assets/icons/dark/modernizr.svg"
+    },
+    "nativescript": {
+      "iconPath": "../assets/icons/dark/nativescript.svg"
+    },
+    "nest": {
+      "iconPath": "../assets/icons/dark/nest.svg"
+    },
+    "netlify": {
+      "iconPath": "../assets/icons/dark/netlify.svg"
+    },
+    "next": {
+      "iconPath": "../assets/icons/dark/next.svg"
+    },
+    "nginx": {
+      "iconPath": "../assets/icons/dark/nginx.svg"
+    },
+    "nim": {
+      "iconPath": "../assets/icons/dark/nim.svg"
+    },
+    "ninja": {
+      "iconPath": "../assets/icons/dark/ninja.svg"
+    },
+    "nix": {
+      "iconPath": "../assets/icons/dark/nix.svg"
+    },
+    "nodemon": {
+      "iconPath": "../assets/icons/dark/nodemon.svg"
+    },
+    "npm": {
+      "iconPath": "../assets/icons/dark/npm.svg"
+    },
+    "nuget": {
+      "iconPath": "../assets/icons/dark/nuget.svg"
+    },
+    "nunjucks": {
+      "iconPath": "../assets/icons/dark/nunjucks.svg"
+    },
+    "nuxt": {
+      "iconPath": "../assets/icons/dark/nuxt.svg"
+    },
+    "ocaml": {
+      "iconPath": "../assets/icons/dark/ocaml.svg"
+    },
+    "org": {
+      "iconPath": "../assets/icons/dark/org.svg"
+    },
+    "package": {
+      "iconPath": "../assets/icons/dark/package.svg"
+    },
+    "pandacss": {
+      "iconPath": "../assets/icons/dark/pandacss.svg"
+    },
+    "perl": {
+      "iconPath": "../assets/icons/dark/perl.svg"
+    },
+    "php": {
+      "iconPath": "../assets/icons/dark/php.svg"
+    },
+    "phrase": {
+      "iconPath": "../assets/icons/dark/phrase.svg"
+    },
+    "playwright": {
+      "iconPath": "../assets/icons/dark/playwright.svg"
+    },
+    "postcss-config": {
+      "iconPath": "../assets/icons/dark/postcss-config.svg"
+    },
+    "postcss": {
+      "iconPath": "../assets/icons/dark/postcss.svg"
+    },
+    "prettier": {
+      "iconPath": "../assets/icons/dark/prettier.svg"
+    },
+    "prisma": {
+      "iconPath": "../assets/icons/dark/prisma.svg"
+    },
+    "prolog": {
+      "iconPath": "../assets/icons/dark/prolog.svg"
+    },
+    "properties": {
+      "iconPath": "../assets/icons/dark/properties.svg"
+    },
+    "protobuf": {
+      "iconPath": "../assets/icons/dark/protobuf.svg"
+    },
+    "pug": {
+      "iconPath": "../assets/icons/dark/pug.svg"
+    },
+    "python": {
+      "iconPath": "../assets/icons/dark/python.svg"
+    },
+    "r": {
+      "iconPath": "../assets/icons/dark/r.svg"
+    },
+    "reason": {
+      "iconPath": "../assets/icons/dark/reason.svg"
+    },
+    "redwood": {
+      "iconPath": "../assets/icons/dark/redwood.svg"
+    },
+    "renovate": {
+      "iconPath": "../assets/icons/dark/renovate.svg"
+    },
+    "rescript": {
+      "iconPath": "../assets/icons/dark/rescript.svg"
+    },
+    "rollup": {
+      "iconPath": "../assets/icons/dark/rollup.svg"
+    },
+    "ruby-erb": {
+      "iconPath": "../assets/icons/dark/ruby-erb.svg"
+    },
+    "ruby": {
+      "iconPath": "../assets/icons/dark/ruby.svg"
+    },
+    "ruby_gems": {
+      "iconPath": "../assets/icons/dark/ruby_gems.svg"
+    },
+    "rust": {
+      "iconPath": "../assets/icons/dark/rust.svg"
+    },
+    "sass": {
+      "iconPath": "../assets/icons/dark/sass.svg"
+    },
+    "scala": {
+      "iconPath": "../assets/icons/dark/scala.svg"
+    },
+    "security": {
+      "iconPath": "../assets/icons/dark/security.svg"
+    },
+    "sentry": {
+      "iconPath": "../assets/icons/dark/sentry.svg"
+    },
+    "serverless": {
+      "iconPath": "../assets/icons/dark/serverless.svg"
+    },
+    "shader": {
+      "iconPath": "../assets/icons/dark/shader.svg"
+    },
+    "shell": {
+      "iconPath": "../assets/icons/dark/shell.svg"
+    },
+    "sketch": {
+      "iconPath": "../assets/icons/dark/sketch.svg"
+    },
+    "snowpack": {
+      "iconPath": "../assets/icons/dark/snowpack.svg"
+    },
+    "solidity": {
+      "iconPath": "../assets/icons/dark/solidity.svg"
+    },
+    "sonar-cloud": {
+      "iconPath": "../assets/icons/dark/sonar-cloud.svg"
+    },
+    "stencil": {
+      "iconPath": "../assets/icons/dark/stencil.svg"
+    },
+    "stitches": {
+      "iconPath": "../assets/icons/dark/stitches.svg"
+    },
+    "storybook": {
+      "iconPath": "../assets/icons/dark/storybook.svg"
+    },
+    "stylelint": {
+      "iconPath": "../assets/icons/dark/stylelint.svg"
+    },
+    "svelte-config": {
+      "iconPath": "../assets/icons/dark/svelte-config.svg"
+    },
+    "svelte": {
+      "iconPath": "../assets/icons/dark/svelte.svg"
+    },
+    "svg": {
+      "iconPath": "../assets/icons/dark/svg.svg"
+    },
+    "swift": {
+      "iconPath": "../assets/icons/dark/swift.svg"
+    },
+    "tailwind": {
+      "iconPath": "../assets/icons/dark/tailwind.svg"
+    },
+    "tauri": {
+      "iconPath": "../assets/icons/dark/tauri.svg"
+    },
+    "terraform": {
+      "iconPath": "../assets/icons/dark/terraform.svg"
+    },
+    "toml": {
+      "iconPath": "../assets/icons/dark/toml.svg"
+    },
+    "twig": {
+      "iconPath": "../assets/icons/dark/twig.svg"
+    },
+    "typescript-d": {
+      "iconPath": "../assets/icons/dark/typescript-d.svg"
+    },
+    "typescript-x": {
+      "iconPath": "../assets/icons/dark/typescript-x.svg"
+    },
+    "typescript": {
+      "iconPath": "../assets/icons/dark/typescript.svg"
+    },
+    "unity": {
+      "iconPath": "../assets/icons/dark/unity.svg"
+    },
+    "unocss": {
+      "iconPath": "../assets/icons/dark/unocss.svg"
+    },
+    "v": {
+      "iconPath": "../assets/icons/dark/v.svg"
+    },
+    "vento": {
+      "iconPath": "../assets/icons/dark/vento.svg"
+    },
+    "vercel": {
+      "iconPath": "../assets/icons/dark/vercel.svg"
+    },
+    "vim": {
+      "iconPath": "../assets/icons/dark/vim.svg"
+    },
+    "visual-studio": {
+      "iconPath": "../assets/icons/dark/visual-studio.svg"
+    },
+    "vite": {
+      "iconPath": "../assets/icons/dark/vite.svg"
+    },
+    "vitest": {
+      "iconPath": "../assets/icons/dark/vitest.svg"
+    },
+    "vscode": {
+      "iconPath": "../assets/icons/dark/vscode.svg"
+    },
+    "vue-config": {
+      "iconPath": "../assets/icons/dark/vue-config.svg"
+    },
+    "vue": {
+      "iconPath": "../assets/icons/dark/vue.svg"
+    },
+    "web-assembly": {
+      "iconPath": "../assets/icons/dark/web-assembly.svg"
+    },
+    "webpack": {
+      "iconPath": "../assets/icons/dark/webpack.svg"
+    },
+    "wxt": {
+      "iconPath": "../assets/icons/dark/wxt.svg"
+    },
+    "xaml": {
+      "iconPath": "../assets/icons/dark/xaml.svg"
+    },
+    "xml": {
+      "iconPath": "../assets/icons/dark/xml.svg"
+    },
+    "yaml": {
+      "iconPath": "../assets/icons/dark/yaml.svg"
+    },
+    "zig": {
+      "iconPath": "../assets/icons/dark/zig.svg"
+    }
+  },
+  "rootFolder": "_root",
+  "folder": "_folder",
+  "folderNames": {},
+  "file": "_file",
+  "fileNames": {
+    "androidmanifest.xml": "android",
+    "astro.config.js": "astro-config",
+    "astro.config.mjs": "astro-config",
+    "astro.config.cjs": "astro-config",
+    "astro.config.ts": "astro-config",
+    "astro.config.cts": "astro-config",
+    "astro.config.mts": "astro-config",
+    "caddyfile": "caddy",
+    "cargo.toml": "cargo",
+    "cargo.lock": "cargo-lock",
+    "cmakelists.txt": "cmake",
+    "cmakecache.txt": "cmake",
+    "cypress.json": "cypress",
+    "cypress.env.json": "cypress",
+    "cypress.config.ts": "cypress",
+    "cypress.config.js": "cypress",
+    "cypress.config.cjs": "cypress",
+    "cypress.config.mjs": "cypress",
+    "deno.json": "deno",
+    "deno.jsonc": "deno",
+    "dependabot.yml": "dependabot",
+    "dependabot.yaml": "dependabot",
+    "dockerfile": "docker",
+    "dockerfile.prod": "docker",
+    "dockerfile.production": "docker",
+    "dockerfile.alpha": "docker",
+    "dockerfile.beta": "docker",
+    "dockerfile.stage": "docker",
+    "dockerfile.staging": "docker",
+    "dockerfile.dev": "docker",
+    "dockerfile.development": "docker",
+    "dockerfile.local": "docker",
+    "dockerfile.test": "docker",
+    "dockerfile.testing": "docker",
+    "dockerfile.ci": "docker",
+    "dockerfile.web": "docker",
+    "dockerfile.worker": "docker",
+    "containerfile": "docker",
+    "containerfile.prod": "docker",
+    "containerfile.production": "docker",
+    "containerfile.alpha": "docker",
+    "containerfile.beta": "docker",
+    "containerfile.stage": "docker",
+    "containerfile.staging": "docker",
+    "containerfile.dev": "docker",
+    "containerfile.development": "docker",
+    "containerfile.local": "docker",
+    "containerfile.test": "docker",
+    "containerfile.testing": "docker",
+    "containerfile.ci": "docker",
+    "containerfile.web": "docker",
+    "containerfile.worker": "docker",
+    "docker-compose.yml": "docker-compose",
+    "docker-compose.override.yml": "docker-compose",
+    "docker-compose.prod.yml": "docker-compose",
+    "docker-compose.production.yml": "docker-compose",
+    "docker-compose.alpha.yml": "docker-compose",
+    "docker-compose.beta.yml": "docker-compose",
+    "docker-compose.stage.yml": "docker-compose",
+    "docker-compose.staging.yml": "docker-compose",
+    "docker-compose.dev.yml": "docker-compose",
+    "docker-compose.development.yml": "docker-compose",
+    "docker-compose.local.yml": "docker-compose",
+    "docker-compose.test.yml": "docker-compose",
+    "docker-compose.testing.yml": "docker-compose",
+    "docker-compose.ci.yml": "docker-compose",
+    "docker-compose.web.yml": "docker-compose",
+    "docker-compose.worker.yml": "docker-compose",
+    "docker-compose.yaml": "docker-compose",
+    "docker-compose.override.yaml": "docker-compose",
+    "docker-compose.prod.yaml": "docker-compose",
+    "docker-compose.production.yaml": "docker-compose",
+    "docker-compose.alpha.yaml": "docker-compose",
+    "docker-compose.beta.yaml": "docker-compose",
+    "docker-compose.stage.yaml": "docker-compose",
+    "docker-compose.staging.yaml": "docker-compose",
+    "docker-compose.dev.yaml": "docker-compose",
+    "docker-compose.development.yaml": "docker-compose",
+    "docker-compose.local.yaml": "docker-compose",
+    "docker-compose.test.yaml": "docker-compose",
+    "docker-compose.testing.yaml": "docker-compose",
+    "docker-compose.ci.yaml": "docker-compose",
+    "docker-compose.web.yaml": "docker-compose",
+    "docker-compose.worker.yaml": "docker-compose",
+    "compose.yaml": "docker-compose",
+    "compose.override.yaml": "docker-compose",
+    "compose.prod.yaml": "docker-compose",
+    "compose.production.yaml": "docker-compose",
+    "compose.alpha.yaml": "docker-compose",
+    "compose.beta.yaml": "docker-compose",
+    "compose.stage.yaml": "docker-compose",
+    "compose.staging.yaml": "docker-compose",
+    "compose.dev.yaml": "docker-compose",
+    "compose.development.yaml": "docker-compose",
+    "compose.local.yaml": "docker-compose",
+    "compose.test.yaml": "docker-compose",
+    "compose.testing.yaml": "docker-compose",
+    "compose.ci.yaml": "docker-compose",
+    "compose.web.yaml": "docker-compose",
+    "compose.worker.yaml": "docker-compose",
+    "compose.yml": "docker-compose",
+    "compose.override.yml": "docker-compose",
+    "compose.prod.yml": "docker-compose",
+    "compose.production.yml": "docker-compose",
+    "compose.alpha.yml": "docker-compose",
+    "compose.beta.yml": "docker-compose",
+    "compose.stage.yml": "docker-compose",
+    "compose.staging.yml": "docker-compose",
+    "compose.dev.yml": "docker-compose",
+    "compose.development.yml": "docker-compose",
+    "compose.local.yml": "docker-compose",
+    "compose.test.yml": "docker-compose",
+    "compose.testing.yml": "docker-compose",
+    "compose.ci.yml": "docker-compose",
+    "compose.web.yml": "docker-compose",
+    "compose.worker.yml": "docker-compose",
+    ".editorconfig": "editorconfig",
+    "esbuild.js": "esbuild",
+    "esbuild.ts": "esbuild",
+    "esbuild.cjs": "esbuild",
+    "esbuild.mjs": "esbuild",
+    "esbuild.config.js": "esbuild",
+    "esbuild.config.ts": "esbuild",
+    "esbuild.config.cjs": "esbuild",
+    "esbuild.config.mjs": "esbuild",
+    ".eslintrc.js": "eslint",
+    ".eslintrc.cjs": "eslint",
+    ".eslintrc.yaml": "eslint",
+    ".eslintrc.yml": "eslint",
+    ".eslintrc.json": "eslint",
+    ".eslintrc-md.js": "eslint",
+    ".eslintrc-jsdoc.js": "eslint",
+    ".eslintrc": "eslint",
+    "eslint.config.js": "eslint",
+    "eslint.config.cjs": "eslint",
+    "eslint.config.mjs": "eslint",
+    "eslint.config.ts": "eslint",
+    "firebase.json": "firebase",
+    "firestore.rules": "firebase",
+    "firestore.indexes.json": "firebase",
+    ".firebaserc": "firebase",
+    "gatsby-config.js": "gatsby",
+    "gatsby-config.mjs": "gatsby",
+    "gatsby-config.ts": "gatsby",
+    "gatsby-node.js": "gatsby",
+    "gatsby-node.mjs": "gatsby",
+    "gatsby-node.ts": "gatsby",
+    "gatsby-browser.js": "gatsby",
+    "gatsby-browser.tsx": "gatsby",
+    "gatsby-ssr.js": "gatsby",
+    "gatsby-ssr.tsx": "gatsby",
+    ".gitattributes": "git",
+    ".gitconfig": "git",
+    ".gitmodules": "git",
+    ".gitkeep": "git",
+    ".keep": "git",
+    ".commitlintrc": "git",
+    ".commitlintrc.json": "git",
+    ".commitlintrc.yaml": "git",
+    ".commitlintrc.yml": "git",
+    ".commitlintrc.js": "git",
+    ".commitlintrc.cjs": "git",
+    ".commitlintrc.mjs": "git",
+    ".commitlintrc.ts": "git",
+    ".commitlintrc.cts": "git",
+    "commitlint.config.js": "git",
+    "commitlint.config.cjs": "git",
+    "commitlint.config.mjs": "git",
+    "commitlint.config.ts": "git",
+    "commitlint.config.cts": "git",
+    ".gitpod.yml": "gitpod",
+    "go.mod": "go-mod",
+    "go.sum": "go-mod",
+    "go.work": "go-mod",
+    "go.work.sum": "go-mod",
+    "gradle.properties": "gradle",
+    "gradlew": "gradle",
+    "gradle-wrapper.properties": "gradle",
+    ".graphqlconfig": "graphql",
+    ".graphqlrc": "graphql",
+    ".graphqlrc.json": "graphql",
+    ".graphqlrc.js": "graphql",
+    ".graphqlrc.cjs": "graphql",
+    ".graphqlrc.ts": "graphql",
+    ".graphqlrc.toml": "graphql",
+    ".graphqlrc.yaml": "graphql",
+    ".graphqlrc.yml": "graphql",
+    "graphql.config.json": "graphql",
+    "graphql.config.js": "graphql",
+    "graphql.config.cjs": "graphql",
+    "graphql.config.ts": "graphql",
+    "graphql.config.toml": "graphql",
+    "graphql.config.yaml": "graphql",
+    "graphql.config.yml": "graphql",
+    "gulpfile.js": "gulp",
+    "gulpfile.mjs": "gulp",
+    "gulpfile.ts": "gulp",
+    "gulpfile.cts": "gulp",
+    "gulpfile.mts": "gulp",
+    "gulpfile.babel.js": "gulp",
+    "CNAME": "http",
+    "ionic.config.json": "ionic",
+    ".io-config.json": "ionic",
+    ".jscsrc": "json",
+    ".jshintrc": "json",
+    "composer.lock": "json",
+    ".jsbeautifyrc": "json",
+    ".esformatter": "json",
+    "cdp.pid": "json",
+    ".lintstagedrc": "json",
+    ".whitesource": "json",
+    ".htpasswd": "key",
+    "lefthook.yml": "lefthook",
+    "lefthook.yaml": "lefthook",
+    "lefthook.toml": "lefthook",
+    "lefthook.json": "lefthook",
+    ".lefthook.yml": "lefthook",
+    ".lefthook.yaml": "lefthook",
+    ".lefthook.toml": "lefthook",
+    ".lefthook.json": "lefthook",
+    ".lefthook-local.yml": "lefthook",
+    ".lefthook-local.yaml": "lefthook",
+    ".lefthook-local.toml": "lefthook",
+    ".lefthook-local.json": "lefthook",
+    "package-lock.json": "locked",
+    "pnpm-lock.yaml": "locked",
+    ".luacheckrc": "lua",
+    "makefile": "makefile",
+    "gnumakefile": "makefile",
+    "kbuild": "makefile",
+    "maven.config": "maven",
+    "jvm.config": "maven",
+    "pom.xml": "maven",
+    "meson.build": "meson",
+    "meson_options.txt": "meson",
+    ".mjmlconfig": "mjml",
+    ".modernizrrc": "modernizr",
+    ".modernizrrc.js": "modernizr",
+    ".modernizrrc.json": "modernizr",
+    "nativescript.config.ts": "nativescript",
+    "nativescript.config.js": "nativescript",
+    "nest-cli.json": "nest",
+    "nestconfig.json": "nest",
+    ".nest-cli.json": "nest",
+    ".nestconfig.json": "nest",
+    "netlify.json": "netlify",
+    "netlify.yml": "netlify",
+    "netlify.yaml": "netlify",
+    "netlify.toml": "netlify",
+    "next.config.js": "next",
+    "next.config.mjs": "next",
+    "next.config.ts": "next",
+    "next.config.mts": "next",
+    "nginx.conf": "nginx",
+    "nodemon.json": "nodemon",
+    "nodemon-debug.json": "nodemon",
+    ".npmrc": "npm",
+    "nuget.config": "nuget",
+    ".nuspec": "nuget",
+    "nuget.exe": "nuget",
+    ".nuxtrc": "nuxt",
+    "nuxt.config.js": "nuxt",
+    "nuxt.config.ts": "nuxt",
+    "panda.config.ts": "pandacss",
+    "panda.config.js": "pandacss",
+    "panda.config.mjs": "pandacss",
+    "panda.config.mts": "pandacss",
+    "panda.config.cjs": "pandacss",
+    ".phrase.yml": "phrase",
+    ".phraseapp.yml": "phrase",
+    ".phrase.yaml": "phrase",
+    ".phraseapp.yaml": "phrase",
+    "playwright.config.js": "playwright",
+    "playwright.config.mjs": "playwright",
+    "playwright.config.ts": "playwright",
+    "package.json": "package",
+    "pnpm-workspace.yml": "package",
+    "pnpm-workspace.yaml": "package",
+    "postcss.config.js": "postcss-config",
+    "postcss.config.cjs": "postcss-config",
+    "postcss.config.ts": "postcss-config",
+    "postcss.config.cts": "postcss-config",
+    ".postcssrc.js": "postcss-config",
+    ".postcssrc.cjs": "postcss-config",
+    ".postcssrc.ts": "postcss-config",
+    ".postcssrc.cts": "postcss-config",
+    ".postcssrc": "postcss-config",
+    ".postcssrc.json": "postcss-config",
+    ".postcssrc.yaml": "postcss-config",
+    ".postcssrc.yml": "postcss-config",
+    "prettier.config.js": "prettier",
+    "prettier.config.cjs": "prettier",
+    "prettier.config.mjs": "prettier",
+    ".prettierrc": "prettier",
+    ".prettierrc.js": "prettier",
+    ".prettierrc.cjs": "prettier",
+    ".prettierrc.mjs": "prettier",
+    ".prettierrc.json": "prettier",
+    ".prettierrc.json5": "prettier",
+    ".prettierrc.yaml": "prettier",
+    ".prettierrc.yml": "prettier",
+    ".prettierrc.toml": "prettier",
+    "prisma.yml": "prisma",
+    ".pug-lintrc": "pug",
+    ".pug-lintrc.js": "pug",
+    ".pug-lintrc.json": "pug",
+    ".Rhistory": "r",
+    "redwood.toml": "redwood",
+    ".renovaterc": "renovate",
+    ".renovaterc.json": "renovate",
+    "renovate.json": "renovate",
+    "renovate.json5": "renovate",
+    "renovate-config.json": "renovate",
+    "rollup.config.js": "rollup",
+    "rollup.config.mjs": "rollup",
+    "rollup.config.ts": "rollup",
+    ".ruby-version": "ruby",
+    "gemfile": "ruby-gem",
+    "security.md": "security",
+    "security.txt": "security",
+    "security": "security",
+    ".sentryclirc": "sentry",
+    "serverless.yml": "serverless",
+    "serverless.yaml": "serverless",
+    "serverless.json": "serverless",
+    "serverless.js": "serverless",
+    "serverless.ts": "serverless",
+    "applypatch-msg": "shell",
+    "pre-applypatch": "shell",
+    "post-applypatch": "shell",
+    "pre-commit": "shell",
+    "prepare-commit-message": "shell",
+    "commit-msg": "shell",
+    "post-commit": "shell",
+    "pre-rebase": "shell",
+    "post-checkout": "shell",
+    "post-merge": "shell",
+    "pre-receive": "shell",
+    "update": "shell",
+    "post-receive": "shell",
+    "post-update": "shell",
+    "pre-auto-gc": "shell",
+    "post-rewrite": "shell",
+    "pre-push": "shell",
+    "snowpack.config.js": "snowpack",
+    "snowpack.config.cjs": "snowpack",
+    "snowpack.config.mjs": "snowpack",
+    "snowpack.config.ts": "snowpack",
+    "snowpack.config.cts": "snowpack",
+    "snowpack.config.mts": "snowpack",
+    "snowpack.deps.json": "snowpack",
+    "snowpack.config.json": "snowpack",
+    "sonar-project.properties": "sonar-cloud",
+    ".sonarcloud.properties": "sonar-cloud",
+    "sonarcloud.yaml": "sonar-cloud",
+    "stencil.config.js": "stencil",
+    "stencil.config.ts": "stencil",
+    "stitches.config.js": "stitches",
+    "stitches.config.ts": "stitches",
+    "stylelint.config.js": "stylelint",
+    "stylelint.config.cjs": "stylelint",
+    "stylelint.config.mjs": "stylelint",
+    ".stylelintrc": "stylelint",
+    ".stylelintrc.json": "stylelint",
+    ".stylelintrc.yaml": "stylelint",
+    ".stylelintrc.yml": "stylelint",
+    ".stylelintrc.js": "stylelint",
+    ".stylelintrc.cjs": "stylelint",
+    ".stylelintrc.mjs": "stylelint",
+    "svelte.config.js": "svelte-config",
+    "svelte.config.ts": "svelte-config",
+    "svelte.config.cjs": "svelte-config",
+    "svelte.config.mjs": "svelte-config",
+    "tailwind.js": "tailwind",
+    "tailwind.ts": "tailwind",
+    "tailwind.config.js": "tailwind",
+    "tailwind.config.cjs": "tailwind",
+    "tailwind.config.mjs": "tailwind",
+    "tailwind.config.ts": "tailwind",
+    "tailwind.config.cts": "tailwind",
+    "tailwind.config.mts": "tailwind",
+    "tauri.conf.json": "tauri",
+    "tauri.config.json": "tauri",
+    "tauri.linux.conf.json": "tauri",
+    "tauri.windows.conf.json": "tauri",
+    "tauri.macos.conf.json": "tauri",
+    "uno.config.js": "unocss",
+    "uno.config.mjs": "unocss",
+    "uno.config.ts": "unocss",
+    "uno.config.mts": "unocss",
+    "unocss.config.js": "unocss",
+    "unocss.config.mjs": "unocss",
+    "unocss.config.ts": "unocss",
+    "unocss.config.mts": "unocss",
+    "vpkg.json": "v",
+    "v.mod": "v",
+    "now.json": "vercel",
+    "vercel.json": "vercel",
+    "vite.config.js": "vite",
+    "vite.config.mjs": "vite",
+    "vite.config.cjs": "vite",
+    "vite.config.ts": "vite",
+    "vite.config.cts": "vite",
+    "vite.config.mts": "vite",
+    "vitest.config.ts": "vitest",
+    "vitest.config.mts": "vitest",
+    "vitest.config.cts": "vitest",
+    "vitest.config.js": "vitest",
+    "vitest.config.mjs": "vitest",
+    "vitest.config.cjs": "vitest",
+    "vue.config.js": "vue-config",
+    "vue.config.ts": "vue-config",
+    "webpack.js": "webpack",
+    "webpack.cjs": "webpack",
+    "webpack.mjs": "webpack",
+    "webpack.ts": "webpack",
+    "webpack.cts": "webpack",
+    "webpack.mts": "webpack",
+    "webpack.base.js": "webpack",
+    "webpack.base.cjs": "webpack",
+    "webpack.base.mjs": "webpack",
+    "webpack.base.ts": "webpack",
+    "webpack.base.cts": "webpack",
+    "webpack.base.mts": "webpack",
+    "webpack.config.js": "webpack",
+    "webpack.config.cjs": "webpack",
+    "webpack.config.mjs": "webpack",
+    "webpack.config.ts": "webpack",
+    "webpack.config.cts": "webpack",
+    "webpack.config.mts": "webpack",
+    "webpack.common.js": "webpack",
+    "webpack.common.cjs": "webpack",
+    "webpack.common.mjs": "webpack",
+    "webpack.common.ts": "webpack",
+    "webpack.common.cts": "webpack",
+    "webpack.common.mts": "webpack",
+    "webpack.config.common.js": "webpack",
+    "webpack.config.common.cjs": "webpack",
+    "webpack.config.common.mjs": "webpack",
+    "webpack.config.common.ts": "webpack",
+    "webpack.config.common.cts": "webpack",
+    "webpack.config.common.mts": "webpack",
+    "webpack.config.common.babel.js": "webpack",
+    "webpack.config.common.babel.ts": "webpack",
+    "webpack.dev.js": "webpack",
+    "webpack.dev.cjs": "webpack",
+    "webpack.dev.mjs": "webpack",
+    "webpack.dev.ts": "webpack",
+    "webpack.dev.cts": "webpack",
+    "webpack.dev.mts": "webpack",
+    "webpack.development.js": "webpack",
+    "webpack.development.cjs": "webpack",
+    "webpack.development.mjs": "webpack",
+    "webpack.development.ts": "webpack",
+    "webpack.development.cts": "webpack",
+    "webpack.development.mts": "webpack",
+    "webpack.config.dev.js": "webpack",
+    "webpack.config.dev.cjs": "webpack",
+    "webpack.config.dev.mjs": "webpack",
+    "webpack.config.dev.ts": "webpack",
+    "webpack.config.dev.cts": "webpack",
+    "webpack.config.dev.mts": "webpack",
+    "webpack.config.dev.babel.js": "webpack",
+    "webpack.config.dev.babel.ts": "webpack",
+    "webpack.config.main.js": "webpack",
+    "webpack.config.renderer.ts": "webpack",
+    "webpack.mix.js": "webpack",
+    "webpack.mix.cjs": "webpack",
+    "webpack.mix.mjs": "webpack",
+    "webpack.mix.ts": "webpack",
+    "webpack.mix.cts": "webpack",
+    "webpack.mix.mts": "webpack",
+    "webpack.prod.js": "webpack",
+    "webpack.prod.cjs": "webpack",
+    "webpack.prod.mjs": "webpack",
+    "webpack.prod.ts": "webpack",
+    "webpack.prod.cts": "webpack",
+    "webpack.prod.mts": "webpack",
+    "webpack.prod.config.js": "webpack",
+    "webpack.prod.config.cjs": "webpack",
+    "webpack.prod.config.mjs": "webpack",
+    "webpack.prod.config.ts": "webpack",
+    "webpack.prod.config.cts": "webpack",
+    "webpack.prod.config.mts": "webpack",
+    "webpack.production.js": "webpack",
+    "webpack.production.cjs": "webpack",
+    "webpack.production.mjs": "webpack",
+    "webpack.production.ts": "webpack",
+    "webpack.production.cts": "webpack",
+    "webpack.production.mts": "webpack",
+    "webpack.server.js": "webpack",
+    "webpack.server.cjs": "webpack",
+    "webpack.server.mjs": "webpack",
+    "webpack.server.ts": "webpack",
+    "webpack.server.cts": "webpack",
+    "webpack.server.mts": "webpack",
+    "webpack.client.js": "webpack",
+    "webpack.client.cjs": "webpack",
+    "webpack.client.mjs": "webpack",
+    "webpack.client.ts": "webpack",
+    "webpack.client.cts": "webpack",
+    "webpack.client.mts": "webpack",
+    "webpack.config.server.js": "webpack",
+    "webpack.config.server.cjs": "webpack",
+    "webpack.config.server.mjs": "webpack",
+    "webpack.config.server.ts": "webpack",
+    "webpack.config.server.cts": "webpack",
+    "webpack.config.server.mts": "webpack",
+    "webpack.config.client.js": "webpack",
+    "webpack.config.client.cjs": "webpack",
+    "webpack.config.client.mjs": "webpack",
+    "webpack.config.client.ts": "webpack",
+    "webpack.config.client.cts": "webpack",
+    "webpack.config.client.mts": "webpack",
+    "webpack.config.production.babel.js": "webpack",
+    "webpack.config.production.babel.ts": "webpack",
+    "webpack.config.prod.babel.js": "webpack",
+    "webpack.config.prod.babel.cjs": "webpack",
+    "webpack.config.prod.babel.mjs": "webpack",
+    "webpack.config.prod.babel.ts": "webpack",
+    "webpack.config.prod.babel.cts": "webpack",
+    "webpack.config.prod.babel.mts": "webpack",
+    "webpack.config.prod.js": "webpack",
+    "webpack.config.prod.cjs": "webpack",
+    "webpack.config.prod.mjs": "webpack",
+    "webpack.config.prod.ts": "webpack",
+    "webpack.config.prod.cts": "webpack",
+    "webpack.config.prod.mts": "webpack",
+    "webpack.config.production.js": "webpack",
+    "webpack.config.production.cjs": "webpack",
+    "webpack.config.production.mjs": "webpack",
+    "webpack.config.production.ts": "webpack",
+    "webpack.config.production.cts": "webpack",
+    "webpack.config.production.mts": "webpack",
+    "webpack.config.staging.js": "webpack",
+    "webpack.config.staging.cjs": "webpack",
+    "webpack.config.staging.mjs": "webpack",
+    "webpack.config.staging.ts": "webpack",
+    "webpack.config.staging.cts": "webpack",
+    "webpack.config.staging.mts": "webpack",
+    "webpack.config.babel.js": "webpack",
+    "webpack.config.babel.ts": "webpack",
+    "webpack.config.base.babel.js": "webpack",
+    "webpack.config.base.babel.ts": "webpack",
+    "webpack.config.base.js": "webpack",
+    "webpack.config.base.cjs": "webpack",
+    "webpack.config.base.mjs": "webpack",
+    "webpack.config.base.ts": "webpack",
+    "webpack.config.base.cts": "webpack",
+    "webpack.config.base.mts": "webpack",
+    "webpack.config.staging.babel.js": "webpack",
+    "webpack.config.staging.babel.ts": "webpack",
+    "webpack.config.coffee": "webpack",
+    "webpack.config.test.js": "webpack",
+    "webpack.config.test.cjs": "webpack",
+    "webpack.config.test.mjs": "webpack",
+    "webpack.config.test.ts": "webpack",
+    "webpack.config.test.cts": "webpack",
+    "webpack.config.test.mts": "webpack",
+    "webpack.config.vendor.js": "webpack",
+    "webpack.config.vendor.cjs": "webpack",
+    "webpack.config.vendor.mjs": "webpack",
+    "webpack.config.vendor.ts": "webpack",
+    "webpack.config.vendor.cts": "webpack",
+    "webpack.config.vendor.mts": "webpack",
+    "webpack.config.vendor.production.js": "webpack",
+    "webpack.config.vendor.production.cjs": "webpack",
+    "webpack.config.vendor.production.mjs": "webpack",
+    "webpack.config.vendor.production.ts": "webpack",
+    "webpack.config.vendor.production.cts": "webpack",
+    "webpack.config.vendor.production.mts": "webpack",
+    "webpack.test.js": "webpack",
+    "webpack.test.cjs": "webpack",
+    "webpack.test.mjs": "webpack",
+    "webpack.test.ts": "webpack",
+    "webpack.test.cts": "webpack",
+    "webpack.test.mts": "webpack",
+    "webpack.dist.js": "webpack",
+    "webpack.dist.cjs": "webpack",
+    "webpack.dist.mjs": "webpack",
+    "webpack.dist.ts": "webpack",
+    "webpack.dist.cts": "webpack",
+    "webpack.dist.mts": "webpack",
+    "webpackfile.js": "webpack",
+    "webpackfile.cjs": "webpack",
+    "webpackfile.mjs": "webpack",
+    "webpackfile.ts": "webpack",
+    "webpackfile.cts": "webpack",
+    "webpackfile.mts": "webpack",
+    "wxt.config.js": "wxt",
+    "wxt.config.ts": "wxt",
+    ".htaccess": "xml"
+  },
+  "fileExtensions": {
+    "apk": "android",
+    "smali": "android",
+    "dex": "android",
+    "7z": "archive",
+    "zip": "archive",
+    "gz": "archive",
+    "rar": "archive",
+    "bz2": "archive",
+    "cab": "archive",
+    "iso": "archive",
+    "tar": "archive",
+    "xz": "archive",
+    "astro": "astro",
+    "aac": "audio",
+    "aiff": "audio",
+    "alac": "audio",
+    "flac": "audio",
+    "m4a": "audio",
+    "m4p": "audio",
+    "mogg": "audio",
+    "mp3": "audio",
+    "oga": "audio",
+    "opus": "audio",
+    "wav": "audio",
+    "wma": "audio",
+    "wv": "audio",
+    "webm": "audio",
+    "mkv": "audio",
+    "flv": "audio",
+    "vob": "audio",
+    "ogv": "audio",
+    "ogg": "audio",
+    "gifv": "audio",
+    "avi": "audio",
+    "mov": "audio",
+    "qt": "audio",
+    "wmv": "audio",
+    "yuv": "audio",
+    "rm": "audio",
+    "rmvb": "audio",
+    "mp4": "audio",
+    "m4v": "audio",
+    "mpg": "audio",
+    "mp2": "audio",
+    "mpeg": "audio",
+    "mpe": "audio",
+    "mpv": "audio",
+    "m2v": "audio",
+    "bin": "binary",
+    "c": "c",
+    "i": "c",
+    "mi": "c",
+    "h": "c-header",
+    "caddyfile": "caddy",
+    "clj": "clojure",
+    "cljs": "clojure",
+    "cljc": "clojure",
+    "cmake": "cmake",
+    "cob": "cobol",
+    "cbl": "cobol",
+    "coffee": "coffeescript",
+    "cson": "coffeescript",
+    "iced": "coffeescript",
+    "cc": "cpp",
+    "cpp": "cpp",
+    "cxx": "cpp",
+    "c++": "cpp",
+    "cp": "cpp",
+    "mii": "cpp",
+    "ii": "cpp",
+    "cs": "csharp",
+    "csx": "csharp",
+    "csharp": "csharp",
+    "css": "css",
+    "csv": "csv",
+    "tsv": "csv",
+    "psv": "csv",
+    "feature": "cucumber",
+    "features": "cucumber",
+    "cu": "cuda",
+    "cuh": "cuda",
+    "dart": "dart",
+    "freezed.dart": "dart-generated",
+    "g.dart": "dart-generated",
+    "pdb": "database",
+    "sql": "database",
+    "pks": "database",
+    "pkb": "database",
+    "accdb": "database",
+    "mdb": "database",
+    "sqlite": "database",
+    "sqlite3": "database",
+    "pgsql": "database",
+    "postgres": "database",
+    "plpgsql": "database",
+    "psql": "database",
+    "db": "database",
+    "db3": "database",
+    "dhall": "dhall",
+    "dhallb": "dhall",
+    "djt": "django",
+    "dockerfile": "docker",
+    "containerfile": "docker",
+    "docker-compose.yml": "docker-compose",
+    "docker-compose.yaml": "docker-compose",
+    "compose.yaml": "docker-compose",
+    "compose.yml": "docker-compose",
+    "ex": "elixir",
+    "exs": "elixir",
+    "eex": "elixir",
+    "leex": "elixir",
+    "heex": "elixir",
+    "elm": "elm",
+    "erl": "erlang",
+    "woff": "font",
+    "woff2": "font",
+    "ttf": "font",
+    "eot": "font",
+    "suit": "font",
+    "otf": "font",
+    "bmap": "font",
+    "fnt": "font",
+    "odttf": "font",
+    "ttc": "font",
+    "font": "font",
+    "fonts": "font",
+    "sui": "font",
+    "ntf": "font",
+    "mrf": "font",
+    "patch": "git",
+    "gitlab-ci.yml": "gitlab",
+    "gleam": "gleam",
+    "go": "go",
+    "gd": "godot",
+    "gradle": "gradle",
+    "graphql": "graphql",
+    "gql": "graphql",
+    "groovy": "groovy",
+    "haml": "haml",
+    "hbs": "handlebars",
+    "mustache": "handlebars",
+    "hs": "haskell",
+    "hx": "haxe",
+    "htm": "html",
+    "html": "html",
+    "xhtml": "html",
+    "html_vm": "html",
+    "asp": "html",
+    "http": "http",
+    "rest": "http",
+    "npmignore": "ignored",
+    "taurignore": "ignored",
+    "vercelignore": "ignored",
+    "nowignore": "ignored",
+    "nuxtignore": "ignored",
+    "dockerignore": "ignored",
+    "gitignore": "ignored",
+    "containerignore": "ignored",
+    "eslintignore": "ignored",
+    "prettierignore": "ignored",
+    "vscodeignore": "ignored",
+    "stylelintignore": "ignored",
+    "stylelintcache": "ignored",
+    "png": "image",
+    "jpeg": "image",
+    "jpg": "image",
+    "gif": "image",
+    "ico": "image",
+    "tif": "image",
+    "tiff": "image",
+    "psd": "image",
+    "psb": "image",
+    "ami": "image",
+    "apx": "image",
+    "avif": "image",
+    "bmp": "image",
+    "bpg": "image",
+    "brk": "image",
+    "cur": "image",
+    "dds": "image",
+    "dng": "image",
+    "exr": "image",
+    "fpx": "image",
+    "gbr": "image",
+    "img": "image",
+    "jbig2": "image",
+    "jb2": "image",
+    "jng": "image",
+    "jxr": "image",
+    "pgf": "image",
+    "pic": "image",
+    "raw": "image",
+    "webp": "image",
+    "eps": "image",
+    "afphoto": "image",
+    "ase": "image",
+    "aseprite": "image",
+    "clip": "image",
+    "cpt": "image",
+    "heif": "image",
+    "heic": "image",
+    "kra": "image",
+    "mdp": "image",
+    "ora": "image",
+    "pdn": "image",
+    "reb": "image",
+    "sai": "image",
+    "tga": "image",
+    "xcf": "image",
+    "jfif": "image",
+    "ppm": "image",
+    "pbm": "image",
+    "pgm": "image",
+    "pnm": "image",
+    "icns": "image",
+    "java": "java",
+    "jsp": "java",
+    "class": "java",
+    "jar": "java",
+    "esx": "javascript",
+    "js": "javascript",
+    "cjs": "javascript",
+    "mjs": "javascript",
+    "jsx": "javascript-x",
+    "json": "json",
+    "jsonc": "json",
+    "tsbuildinfo": "json",
+    "json5": "json",
+    "jsonl": "json",
+    "ndjson": "json",
+    "hjson": "json",
+    "webmanifest": "json",
+    "ipynb": "jupyter",
+    "pub": "key",
+    "key": "key",
+    "pem": "key",
+    "asc": "key",
+    "gpg": "key",
+    "passwd": "key",
+    "keystore": "key",
+    "kt": "kotlin",
+    "kts": "kotlin",
+    "tex": "latex",
+    "sty": "latex",
+    "dtx": "latex",
+    "ltx": "latex",
+    "less": "less",
+    "lock": "locked",
+    "lockb": "locked",
+    "lisp": "lisp",
+    "lsp": "lisp",
+    "cl": "lisp",
+    "fast": "lisp",
+    "lua": "lua",
+    "luau": "lua",
+    "mk": "makefile",
+    "md": "markdown",
+    "markdown": "markdown",
+    "rst": "markdown",
+    "mdx": "markdown-mdx",
+    "marko": "marko",
+    "mmd": "mermaid",
+    "mermaid": "mermaid",
+    "wrap": "meson",
+    "mjml": "mjml",
+    "nginx": "nginx",
+    "nginxconf": "nginx",
+    "nginxconfig": "nginx",
+    "nim": "nim",
+    "nimble": "nim",
+    "ninja": "ninja",
+    "nix": "nix",
+    "nupkg": "nuget",
+    "njk": "nunjucks",
+    "nunjucks": "nunjucks",
+    "ml": "ocaml",
+    "mli": "ocaml",
+    "cmx": "ocaml",
+    "org": "org",
+    "pm": "perl",
+    "raku": "perl",
+    "php": "php",
+    "pcss": "postcss",
+    "sss": "postcss",
+    "prisma": "prisma",
+    "p": "prolog",
+    "pro": "prolog",
+    "pl": "prolog",
+    "ini": "properties",
+    "dlc": "properties",
+    "config": "properties",
+    "conf": "properties",
+    "properties": "properties",
+    "prop": "properties",
+    "settings": "properties",
+    "option": "properties",
+    "props": "properties",
+    "prefs": "properties",
+    "sln.dotsettings": "properties",
+    "sln.dotsettings.user": "properties",
+    "cfg": "properties",
+    "config.ts": "properties",
+    "proto": "protobuf",
+    "jade": "pug",
+    "pug": "pug",
+    "py": "python",
+    "pyc": "python",
+    "pyo": "python",
+    "pyd": "python",
+    "r": "r",
+    "rmd": "r",
+    "re": "reason",
+    "rei": "reason",
+    "res": "rescript",
+    "rb": "ruby",
+    "rbs": "ruby",
+    "erb": "ruby-erb",
+    "rs": "rust",
+    "ron": "rust",
+    "scss": "sass",
+    "sass": "sass",
+    "scala": "scala",
+    "sc": "scala",
+    "glsl": "shader",
+    "vert": "shader",
+    "tesc": "shader",
+    "tese": "shader",
+    "geom": "shader",
+    "frag": "shader",
+    "comp": "shader",
+    "vert.glsl": "shader",
+    "tesc.glsl": "shader",
+    "tese.glsl": "shader",
+    "geom.glsl": "shader",
+    "frag.glsl": "shader",
+    "comp.glsl": "shader",
+    "vertex.glsl": "shader",
+    "geometry.glsl": "shader",
+    "fragment.glsl": "shader",
+    "compute.glsl": "shader",
+    "ts.glsl": "shader",
+    "gs.glsl": "shader",
+    "vs.glsl": "shader",
+    "fs.glsl": "shader",
+    "shader": "shader",
+    "vertexshader": "shader",
+    "fragmentshader": "shader",
+    "geometryshader": "shader",
+    "computeshader": "shader",
+    "hlsl": "shader",
+    "pixel.hlsl": "shader",
+    "geometry.hlsl": "shader",
+    "compute.hlsl": "shader",
+    "tessellation.hlsl": "shader",
+    "px.hlsl": "shader",
+    "geom.hlsl": "shader",
+    "comp.hlsl": "shader",
+    "tess.hlsl": "shader",
+    "wgsl": "shader",
+    "sh": "shell",
+    "ksh": "shell",
+    "csh": "shell",
+    "tcsh": "shell",
+    "zsh": "shell",
+    "bash": "shell",
+    "awk": "shell",
+    "fish": "shell",
+    "bat": "shell",
+    "cmd": "shell",
+    "ps1": "shell",
+    "psm1": "shell",
+    "psd1": "shell",
+    "ps1xml": "shell",
+    "psc1": "shell",
+    "pssc": "shell",
+    "sketch": "sketch",
+    "sol": "solidity",
+    "stories.js": "storybook",
+    "stories.jsx": "storybook",
+    "stories.mdx": "storybook",
+    "story.js": "storybook",
+    "story.jsx": "storybook",
+    "stories.ts": "storybook",
+    "stories.tsx": "storybook",
+    "story.ts": "storybook",
+    "story.tsx": "storybook",
+    "story.mdx": "storybook",
+    "svelte": "svelte",
+    "svg": "svg",
+    "swift": "swift",
+    "tauri": "tauri",
+    "tf": "terraform",
+    "tf.json": "terraform",
+    "tfvars": "terraform",
+    "tfstate": "terraform",
+    "tfbackend": "terraform",
+    "toml": "toml",
+    "twig": "twig",
+    "ts": "typescript",
+    "d.ts": "typescript-d",
+    "tsx": "typescript-x",
+    "unity": "unity",
+    "v": "v",
+    "vto": "vento",
+    "vimrc": "vim",
+    "gvimrc": "vim",
+    "exrc": "vim",
+    "vim": "vim",
+    "viminfo": "vim",
+    "csproj": "visual-studio",
+    "ruleset": "visual-studio",
+    "sln": "visual-studio",
+    "suo": "visual-studio",
+    "vb": "visual-studio",
+    "vbs": "visual-studio",
+    "vcxitems": "visual-studio",
+    "vcxitems.filters": "visual-studio",
+    "vcxproj": "visual-studio",
+    "vcxproj.filters": "visual-studio",
+    "vsixmanifest": "vscode",
+    "vsix": "vscode",
+    "code-workplace": "vscode",
+    "code-workspace": "vscode",
+    "code-profile": "vscode",
+    "code-snippets": "vscode",
+    "vue": "vue",
+    "wat": "web-assembly",
+    "wasm": "web-assembly",
+    "xaml": "xaml",
+    "xml": "xml",
+    "plist": "xml",
+    "xsd": "xml",
+    "dtd": "xml",
+    "xsl": "xml",
+    "xslt": "xml",
+    "resx": "xml",
+    "iml": "xml",
+    "xquery": "xml",
+    "tmLanguage": "xml",
+    "manifest": "xml",
+    "project": "xml",
+    "xml.dist": "xml",
+    "xml.dist.sample": "xml",
+    "dmn": "xml",
+    "jrxml": "xml",
+    "yml": "yaml",
+    "yaml": "yaml",
+    "zig": "zig"
+  }
+}

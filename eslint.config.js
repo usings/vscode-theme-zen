@@ -1,4 +1,4 @@
-import { defineConfig } from '@witheslint/core'
+import { defineConfig } from 'witheslint'
 
 export default defineConfig({
   ignores: [
@@ -6,5 +6,12 @@ export default defineConfig({
     '**/dist',
     '**/languages',
     '**/.idea',
+  ],
+  extends: [
+    {
+      rules: {
+        'unicorn/import-style': 'off',
+      },
+    },
   ],
 })

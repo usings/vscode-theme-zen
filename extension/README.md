@@ -1,6 +1,6 @@
 ## Preview
 
-![image](https://github.com/usings/vscode-theme-zen/blob/main/extension/assets/preview.png?raw=true)
+![image](https://github.com/usings/vscode-theme-zen/blob/main/extension/assets/images/preview.png?raw=true)
 
 
 ## Credits

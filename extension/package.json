@@ -6,7 +6,7 @@
   "publisher": "using",
   "displayName": "Zen Theme",
   "description": "A fleet like theme for VS Code.",
-  "icon": "assets/zen.png",
+  "icon": "assets/images/zen.png",
   "engines": {
     "vscode": "^1.60.0"
   },
@@ -18,14 +18,14 @@
       {
         "label": "Zen Dark",
         "uiTheme": "vs-dark",
-        "path": "themes/color-zen.json"
+        "path": "meta/color-dark.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "zen-dark",
         "label": "Zen Dark",
-        "path": "themes/icon-dark.json"
+        "id": "zen-dark",
+        "path": "meta/icon-dark.json"
       }
     ]
   },
@@ -35,8 +35,14 @@
     "directory": "extension"
   },
   "scripts": {
-    "dev": "esno watch scripts/index.ts",
-    "build": "esno scripts/index.ts",
-    "release": "vsce publish --no-dependencies"
+    "dev": "esno watch scripts/build.ts",
+    "build": "esno scripts/build.ts",
+    "release": "vsce publish --no-dependencies",
+    "typegen": "esno scripts/typegen.ts"
+  },
+  "devDependencies": {
+    "globby": "^14.0.1",
+    "json-schema-to-typescript-lite": "^14.0.0",
+    "scule": "^1.3.0"
   }
 }
