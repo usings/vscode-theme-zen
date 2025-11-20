@@ -1,0 +1,32 @@
+# -----------------------------
+# dependencies & build
+# -----------------------------
+.cache
+*.vsix
+node_modules
+
+# -----------------------------
+# system files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# local files
+# -----------------------------
+languages
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode
+.idea
+
+# -----------------------------
+# tooling
+# -----------------------------
+.github
+.gitignore
+lerna.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
