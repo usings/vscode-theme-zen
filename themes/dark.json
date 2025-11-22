@@ -20,7 +20,7 @@
     "button.foreground": "#000000EE",
     "button.background": "#81D2CECC",
     "button.hoverBackground": "#81D2CEEE",
-    "dropdown.foreground":"#7F7F7F",
+    "dropdown.foreground": "#7F7F7F",
     "dropdown.background": "#151515EE",
     "dropdown.border": "#FFFFFF11",
     "dropdown.listBackground": "#050505",
@@ -174,7 +174,7 @@
     "notificationCenterHeader.background": "#050505",
     "notifications.border": "#00000000",
     "notifications.background": "#0D0D0D",
-    "notificationToast.border": "#00000000",
+    "notificationToast.border": "#FFFFFF11",
     "banner.foreground": "#7F7F7F",
     "banner.background": "#050505",
     "pickerGroup.foreground": "#81D2CEEE",
@@ -472,7 +472,7 @@
         "foreground": "#86C0FFEE"
       }
     },
-        {
+    {
       "name": "HTML - Tag reference",
       "scope": [
         "entity.name.tag.reference"
