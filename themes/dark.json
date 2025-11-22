@@ -353,25 +353,12 @@
       }
     },
     {
-      "name": "Decorators and annotations",
-      "scope": [
-        "meta.decorator",
-        "meta.annotation",
-        "punctuation.decorator",
-        "entity.name.function.decorator",
-        "storage.type.annotation"
-      ],
-      "settings": {
-        "foreground": "#A8CC7CDD"
-      }
-    },
-    {
       "name": "Tags",
       "scope": [
         "entity.name.tag"
       ],
       "settings": {
-        "foreground": "#8EA2F7EE"
+        "foreground": "#86C0FFEE"
       }
     },
     {
@@ -381,6 +368,15 @@
       ],
       "settings": {
         "foreground": "#CCCCCCBB"
+      }
+    },
+    {
+      "name": "Tag reference",
+      "scope": [
+        "entity.name.tag.reference"
+      ],
+      "settings": {
+        "foreground": "#81D2CEDD"
       }
     },
     {
@@ -406,9 +402,6 @@
       "name": "Punctuation - Separator",
       "scope": [
         "punctuation.separator",
-        "punctuation.separator.comma",
-        "punctuation.separator.colon",
-        "punctuation.terminator.statement"
       ],
       "settings": {
         "foreground": "#BBBBBB77"
@@ -461,27 +454,6 @@
       }
     },
     {
-      "name": "HTML - Tags",
-      "scope": [
-        "entity.name.tag.js",
-        "entity.name.tag.css",
-        "entity.name.tag.less",
-        "entity.name.tag.html"
-      ],
-      "settings": {
-        "foreground": "#86C0FFEE"
-      }
-    },
-    {
-      "name": "HTML - Tag reference",
-      "scope": [
-        "entity.name.tag.reference"
-      ],
-      "settings": {
-        "foreground": "#81D2CEDD"
-      }
-    },
-    {
       "name": "HTML - Property",
       "scope": [
         "support.type.property-name.css",
@@ -530,7 +502,7 @@
       }
     },
     {
-      "name": "Javascript - Component property",
+      "name": "Javascript - Component",
       "scope": [
         "support.class.component.js",
       ],
@@ -558,7 +530,7 @@
         "entity.name.tag.style.html.vue"
       ],
       "settings": {
-        "fontStyle": "bold"
+        "foreground": "#8EA2F7EE"
       }
     },
     {
