@@ -298,8 +298,6 @@
       "scope": [
         "keyword.control.at-rule",
         "keyword.control.directive",
-        "keyword.control.import",
-        "keyword.control.default"
       ],
       "settings": {
         "foreground": "#A8CC7CDD"
