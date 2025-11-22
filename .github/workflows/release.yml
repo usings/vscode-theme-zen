@@ -25,12 +25,13 @@ jobs:
         with:
           node-version: lts/*
 
-      - name: Generate changelog
-        run: npx changelogithub --capitalize=false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Publish Extension to Marketplace
         run: npx @vscode/vsce publish --no-dependencies
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Generate changelog
+        if: ${{ success() }}
+        run: npx changelogithub --capitalize=false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
