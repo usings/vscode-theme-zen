@@ -509,7 +509,7 @@
       }
     },
     {
-      "name": "Javascript - At-rules and directives",
+      "name": "Javascript - Import statement",
       "scope": [
         "keyword.control.import.ts",
         "keyword.control.from.ts",
