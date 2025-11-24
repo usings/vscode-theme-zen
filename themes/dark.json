@@ -219,6 +219,12 @@
     "breadcrumb.focusForeground": "#81D2CEEE",
     "breadcrumb.activeSelectionForeground": "#81D2CEEE",
     "breadcrumbPicker.background": "#050505",
+    "settings.headerForeground": "#FFFFFFDD",
+    "settings.modifiedItemIndicator": "#81D2CEEE",
+    "settings.focusedRowBackground": "#FFFFFF11",
+    "settings.focusedRowBorder": "#81D2CEEE",
+    "settings.rowHoverBackground": "#FFFFFF11",
+    "settings.sashBorder": "#FFFFFF11",
   },
   "tokenColors": [
     {
