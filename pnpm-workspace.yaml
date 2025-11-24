@@ -1,3 +1,4 @@
 onlyBuiltDependencies:
   - '@vscode/vsce-sign'
   - keytar
+  - lefthook

@@ -1,0 +1,14 @@
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration
+#
+output:
+  - summary
+  - success
+  - failure
+  - execution
+
+commit-msg:
+  commands:
+    lint commit message:
+      run: pnpm commitlint --edit {1}

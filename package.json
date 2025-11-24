@@ -27,12 +27,16 @@
     "url": "https://github.com/usings/vscode-theme-zen"
   },
   "scripts": {
+    "prepare": "lefthook install",
     "release": "lerna version",
     "publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
-    "@lerna-lite/cli": "^4.9.2",
-    "@lerna-lite/version": "^4.9.2",
-    "@vscode/vsce": "^3.7.0"
+    "@commitlint/cli": "^20.1.0",
+    "@commitlint/config-conventional": "^20.0.0",
+    "@lerna-lite/cli": "^4.9.3",
+    "@lerna-lite/version": "^4.9.3",
+    "@vscode/vsce": "^3.7.1",
+    "lefthook": "^2.0.4"
   }
 }
