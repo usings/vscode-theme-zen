@@ -722,6 +722,24 @@
       }
     },
     {
+      "name": "Punctuation - Terminator",
+      "scope": [
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#BBBBBB66"
+      }
+    },
+    {
+      "name": "Meta - Brace",
+      "scope": [
+        "meta.brace"
+      ],
+      "settings": {
+        "foreground": "#BBBBBB99"
+      }
+    },
+    {
       "name": "Markup - Headings",
       "scope": [
         "markup.heading"
