@@ -488,10 +488,10 @@
     "charts.purple": "#AF9CFFDD",
     "symbolIcon.arrayForeground": "#EFCE89DD",
     "symbolIcon.booleanForeground": "#81D2CEDD",
-    "symbolIcon.classForeground": "#8EA2F7EE",
+    "symbolIcon.classForeground": "#86C0FFEE",
     "symbolIcon.colorForeground": "#DD99AADD",
     "symbolIcon.constantForeground": "#EBC88DBB",
-    "symbolIcon.constructorForeground": "#8EA2F7EE",
+    "symbolIcon.constructorForeground": "#86C0FFEE",
     "symbolIcon.enumeratorForeground": "#8EA2F7EE",
     "symbolIcon.enumeratorMemberForeground": "#BBAAFFDD",
     "symbolIcon.eventForeground": "#E7D38FBB",
@@ -836,7 +836,8 @@
     {
       "name": "Javascript - Component",
       "scope": [
-        "support.class.component.js"
+        "support.class.component.js",
+        "support.class.component.tsx"
       ],
       "settings": {
         "foreground": "#8EA2F7EE"
@@ -852,6 +853,15 @@
       ],
       "settings": {
         "foreground": "#BBBBBB99"
+      }
+    },
+    {
+      "name": "Javascript - Primitive types",
+      "scope": [
+        "support.type.primitive.ts",
+      ],
+      "settings": {
+        "foreground": "#8EA2F7EE"
       }
     },
     {
@@ -884,7 +894,7 @@
       "foreground": "#8EA2F7EE"
     },
     "class": {
-      "foreground": "#8EA2F7EE"
+      "foreground": "#86C0FFEE"
     },
     "interface": {
       "foreground": "#8EA2F7EE"
