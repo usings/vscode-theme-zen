@@ -16,7 +16,6 @@ Thumbs.db
 # IDE / Editor
 # -----------------------------
 .idea
-.vscode
 
 # -----------------------------
 # logs & local files

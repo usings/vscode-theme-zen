@@ -1,0 +1,10 @@
+{
+  "ignorePaths": [
+    "node_modules",
+    "dist"
+  ],
+  "words": [
+    "changelogithub",
+    "commitlintrc"
+  ]
+}
