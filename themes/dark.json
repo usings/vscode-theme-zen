@@ -660,7 +660,7 @@
         "comment"
       ],
       "settings": {
-        "foreground": "#BBBBBB66"
+        "foreground": "#BBBBBB77"
       }
     },
     {
@@ -845,7 +845,7 @@
         "punctuation.terminator"
       ],
       "settings": {
-        "foreground": "#BBBBBB66"
+        "foreground": "#BBBBBB55"
       }
     },
     {
@@ -930,6 +930,16 @@
       ],
       "settings": {
         "foreground": "#BBBBBBDD"
+      }
+    },
+    {
+      "name": "JSON - Punctuation",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json"
+      ],
+      "settings": {
+        "foreground": "#BBBBBB77"
       }
     },
     {
@@ -1058,7 +1068,7 @@
       "foreground": "#81D2CEDD"
     },
     "comment": {
-      "foreground": "#BBBBBB66"
+      "foreground": "#BBBBBB77"
     },
     "string": {
       "foreground": "#DD99AADD"
@@ -1077,7 +1087,7 @@
     },
     "*.deprecated": {
       "strikethrough": true,
-      "foreground": "#BBBBBB66"
+      "foreground": "#BBBBBB77"
     },
     "*.modification": {
       "foreground": "#BBBBBBDD"
