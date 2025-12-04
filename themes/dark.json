@@ -972,18 +972,6 @@
       }
     },
     {
-      "name": "Javascript - Import statement",
-      "scope": [
-        "keyword.control.import.ts",
-        "keyword.control.from.ts",
-        "keyword.control.import.js",
-        "keyword.control.from.js"
-      ],
-      "settings": {
-        "foreground": "#BBBBBB99"
-      }
-    },
-    {
       "name": "Javascript - Primitive types",
       "scope": [
         "support.type.primitive.ts"
