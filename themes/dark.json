@@ -913,6 +913,18 @@
         "foreground": "#BBAAFFDD"
       }
     },
+        {
+      "name": "SQL - keywords",
+      "scope": [
+        "keyword.other.sql",
+        "keyword.other.DML.sql",
+        "keyword.other.DDL.create.II.sql",
+        "keyword.other.alias.sql"
+      ],
+      "settings": {
+        "foreground": "#81D2CEDD"
+      }
+    },
     {
       "name": "XML - Tags",
       "scope": [
