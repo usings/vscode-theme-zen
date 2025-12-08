@@ -8,7 +8,8 @@
   The theme follows the quiet order of WCAG AA contrast, letting every word appear as clearly as ink in morning light. Its colors keep their gentle meanings, each shining in its own calm way without ever reaching for attention. The overall mood is pure and restrained—like a softly lit studio—unfolding a serene, steady space for long, contemplative hours of coding.
 </p>
 
-## Dark Theme Colors
+
+## Dark Theme
 
 ![PREVIEW](./assets/preview-dark.png)
 
@@ -54,6 +55,53 @@ Below are **all base colors** used throughout the **dark theme**, organized by c
 | **Terminal** | `#779E9E` | ![chip](https://placehold.co/40x20/779E9E/779E9E) | Terminal ANSI Bright Cyan |
 | **Terminal** | `#C3C5C9` | ![chip](https://placehold.co/40x20/C3C5C9/C3C5C9) | Terminal ANSI White |
 | **Terminal** | `#898E94` | ![chip](https://placehold.co/40x20/898E94/898E94) | Terminal ANSI Bright Black (Gray) |
+
+
+## Light Theme
+
+![PREVIEW](./assets/preview-light.png)
+
+The **light theme** inverts the dark theme's color philosophy, using light backgrounds with darker text for readability while maintaining the same semantic color system and opacity ladder.
+
+| Color Family | Color | Chip | Usage |
+| ------------ | ----- | ---- | ----- |
+| **Neutral Gray** | `#FFFFFF` | ![chip](https://placehold.co/40x20/FFFFFF/FFFFFF) | Pure white (borders, shadows with transparency) |
+| **Neutral Gray** | `#FAFAFA` | ![chip](https://placehold.co/40x20/FAFAFA/FAFAFA) | Editor background, inputs, dropdowns, hover states |
+| **Neutral Gray** | `#F5F5F5` | ![chip](https://placehold.co/40x20/F5F5F5/F5F5F5) | Base background for panels, sidebar, terminal, widgets |
+| **Neutral Gray** | `#D8D8D8` | ![chip](https://placehold.co/40x20/D8D8D8/D8D8D8) | Selection backgrounds, blocks, badges |
+| **Neutral Gray** | `#A0A0A0` | ![chip](https://placehold.co/40x20/A0A0A0/A0A0A0) | Borders, inactive UI, low‑contrast foreground |
+| **Neutral Gray** | `#939393` | ![chip](https://placehold.co/40x20/939393/939393) | Placeholder text, de‑emphasized elements |
+| **Neutral Gray** | `#757575` | ![chip](https://placehold.co/40x20/757575/757575) | Inactive foreground, icons, soft accents, editor line numbers |
+| **Neutral Gray** | `#404040` | ![chip](https://placehold.co/40x20/404040/404040) | Primary text foreground |
+| **Neutral Gray** | `#000000` | ![chip](https://placehold.co/40x20/000000/000000) | Maximum contrast highlights, focused text |
+| **Blue-Cyan** | `#0891B2` | ![chip](https://placehold.co/40x20/0891B2/0891B2) | Regex highlighting, git renamed resources |
+| **Blue-Cyan** | `#2563EB` | ![chip](https://placehold.co/40x20/2563EB/2563EB) | Type parameters |
+| **Blue-Cyan** | `#0D9488` | ![chip](https://placehold.co/40x20/0D9488/0D9488) | Primary accent: cursor, borders, widgets, highlights, success states |
+| **Blue-Cyan** | `#0369A1` | ![chip](https://placehold.co/40x20/0369A1/0369A1) | Types, classes, interfaces, enums, info states, multi-cursor, charts blue |
+| **Purple/Violet** | `#7C3AED` | ![chip](https://placehold.co/40x20/7C3AED/7C3AED) | Properties, enum members, keys, symbols, charts purple |
+| **Purple/Violet** | `#A21CAF` | ![chip](https://placehold.co/40x20/A21CAF/A21CAF) | Strings, string literals |
+| **Rose/Pink** | `#BE123C` | ![chip](https://placehold.co/40x20/BE123C/BE123C) | Language variables (this, self) |
+| **Rose/Pink** | `#BE185D` | ![chip](https://placehold.co/40x20/BE185D/BE185D) | Debug tokens, color symbols, blockquotes |
+| **Warm Yellow/Orange** | `#C2410C` | ![chip](https://placehold.co/40x20/C2410C/C2410C) | Git conflicts, merge issues, React/JSX component names |
+| **Warm Yellow/Orange** | `#CA8A04` | ![chip](https://placehold.co/40x20/CA8A04/CA8A04) | Warnings, decorators, inline values |
+| **Warm Yellow/Orange** | `#D97706` | ![chip](https://placehold.co/40x20/D97706/D97706) | Functions, methods, numeric constants |
+| **Green** | `#16A34A` | ![chip](https://placehold.co/40x20/16A34A/16A34A) | Directives, macros, CSS important, Go packages |
+| **Red** | `#DC2626` | ![chip](https://placehold.co/40x20/DC2626/DC2626) | Error foregrounds, invalid tokens |
+| **Terminal** | `#E8E9EB` | ![chip](https://placehold.co/40x20/E8E9EB/E8E9EB) | Terminal ANSI Black |
+| **Terminal** | `#DC2626` | ![chip](https://placehold.co/40x20/DC2626/DC2626) | Terminal ANSI Red |
+| **Terminal** | `#B91C1C` | ![chip](https://placehold.co/40x20/B91C1C/B91C1C) | Terminal ANSI Bright Red |
+| **Terminal** | `#059669` | ![chip](https://placehold.co/40x20/059669/059669) | Terminal ANSI Green |
+| **Terminal** | `#047857` | ![chip](https://placehold.co/40x20/047857/047857) | Terminal ANSI Bright Green |
+| **Terminal** | `#D97706` | ![chip](https://placehold.co/40x20/D97706/D97706) | Terminal ANSI Yellow |
+| **Terminal** | `#B45309` | ![chip](https://placehold.co/40x20/B45309/B45309) | Terminal ANSI Bright Yellow |
+| **Terminal** | `#2563EB` | ![chip](https://placehold.co/40x20/2563EB/2563EB) | Terminal ANSI Blue |
+| **Terminal** | `#1D4ED8` | ![chip](https://placehold.co/40x20/1D4ED8/1D4ED8) | Terminal ANSI Bright Blue |
+| **Terminal** | `#9333EA` | ![chip](https://placehold.co/40x20/9333EA/9333EA) | Terminal ANSI Magenta |
+| **Terminal** | `#7E22CE` | ![chip](https://placehold.co/40x20/7E22CE/7E22CE) | Terminal ANSI Bright Magenta |
+| **Terminal** | `#0891B2` | ![chip](https://placehold.co/40x20/0891B2/0891B2) | Terminal ANSI Cyan |
+| **Terminal** | `#0E7490` | ![chip](https://placehold.co/40x20/0E7490/0E7490) | Terminal ANSI Bright Cyan |
+| **Terminal** | `#404040` | ![chip](https://placehold.co/40x20/404040/404040) | Terminal ANSI White |
+| **Terminal** | `#737373` | ![chip](https://placehold.co/40x20/737373/737373) | Terminal ANSI Bright Black (Gray) |
 
 
 ## Color System Philosophy

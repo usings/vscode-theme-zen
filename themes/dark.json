@@ -700,7 +700,7 @@
         "foreground": "#CC7C8AE6"
       }
     },
-        {
+    {
       "name": "Object variables",
       "scope": [
         "variable.other.object"
@@ -817,7 +817,7 @@
         "foreground": "#EBC88DE6"
       }
     },
-        {
+    {
       "name": "Properties and fields",
       "scope": [
         "variable.other.property",
