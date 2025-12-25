@@ -1203,11 +1203,10 @@
       }
     },
     {
-      "name": "Invalid or deprecated code",
+      "name": "Invalid code",
       "scope": [
         "invalid",
         "invalid.illegal",
-        "invalid.deprecated"
       ],
       "settings": {
         "foreground": "#FF8787E6",
@@ -1286,7 +1285,6 @@
     },
     "*.deprecated": {
       "strikethrough": true,
-      "foreground": "#BCBCBC80"
     }
     // "*.readonly": {
     //   "italic": true
