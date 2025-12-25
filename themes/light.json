@@ -3,7 +3,7 @@
   "name": "Zen light",
   "type": "light",
   "colors": {
-    "focusBorder": "#FFFFFF00",
+    "focusBorder": "#0D9488E6",
     "foreground": "#404040E6",
     "descriptionForeground": "#939393FF",
     "disabledForeground": "#A0A0A0FF",

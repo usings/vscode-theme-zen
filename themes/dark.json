@@ -3,7 +3,7 @@
   "name": "Zen dark",
   "type": "dark",
   "colors": {
-    "focusBorder": "#00000000",
+    "focusBorder": "#81D2CEE6",
     "foreground": "#BCBCBCE6",
     "descriptionForeground": "#6C6C6CFF",
     "disabledForeground": "#5F5F5FFF",
