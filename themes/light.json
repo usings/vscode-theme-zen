@@ -166,7 +166,7 @@
     "editorGroup.emptyBackground": "#F5F5F5FF",
     "tab.dragAndDropBorder": "#0D9488E6",
     "tab.lastPinnedBorder": "#A0A0A04D",
-    "tab.activeBackground": "#A0A0A04D",
+    "tab.activeBackground": "#FAFAFAFF",
     "tab.unfocusedActiveBackground": "#FAFAFAFF",
     "tab.inactiveBackground": "#F5F5F5FF",
     "tab.unfocusedInactiveBackground": "#F5F5F5FF",
