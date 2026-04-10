@@ -70,7 +70,7 @@ The usage column is illustrative, not normative. Treat it as examples of current
 
 | Color Family | Color | Usage |
 | ------------ | ----- | ----- |
-| **Neutral Gray** | `#000000` | Invisible borders and shadows when combined with transparency |
+| **Neutral Gray** | `#000000` | Transparent black base for shadow suppression and invisible edges |
 | **Neutral Gray** | `#050505` | Base background for panels, sidebar, terminal, widgets |
 | **Neutral Gray** | `#0F0F0F` | Editor background, inputs, dropdowns, hover states |
 | **Neutral Gray** | `#2D2D2D` | Blocks and raised neutral surfaces |
@@ -79,7 +79,7 @@ The usage column is illustrative, not normative. Treat it as examples of current
 | **Neutral Gray** | `#8A8A8A` | Inactive foreground, icons, soft accents, line numbers |
 | **Neutral Gray** | `#BCBCBC` | Primary text foreground |
 | **Neutral Gray** | `#FFFFFF` | Maximum contrast highlights, focused text |
-| **Blue-Cyan** | `#6AB8C0` | Regex highlighting, git renamed resources |
+| **Blue-Cyan** | `#6AB8C0` | Regex highlighting, git renamed resources, and other quiet cyan/info-adjacent accents |
 | **Blue-Cyan** | `#71A3EF` | Type parameters |
 | **Blue-Cyan** | `#81D2CE` | Primary accent family |
 | **Blue-Cyan** | `#87C3FF` | Types, interfaces, info states |
@@ -98,7 +98,7 @@ The usage column is illustrative, not normative. Treat it as examples of current
 
 | Color Family | Color | Usage |
 | ------------ | ----- | ----- |
-| **Neutral Gray** | `#FFFFFF` | Borders and shadows with transparency |
+| **Neutral Gray** | `#FFFFFF` | Transparent white base for shadow suppression and invisible edges |
 | **Neutral Gray** | `#FAFAFA` | Editor background, inputs, dropdowns, hover states |
 | **Neutral Gray** | `#F5F5F5` | Base background for panels, sidebar, terminal, widgets |
 | **Neutral Gray** | `#D8D8D8` | Blocks and raised neutral surfaces |
@@ -107,7 +107,7 @@ The usage column is illustrative, not normative. Treat it as examples of current
 | **Neutral Gray** | `#757575` | Inactive foreground, icons, soft accents, line numbers |
 | **Neutral Gray** | `#404040` | Primary text foreground |
 | **Neutral Gray** | `#000000` | Maximum contrast highlights, focused text |
-| **Blue-Cyan** | `#0891B2` | Regex highlighting, git renamed resources |
+| **Blue-Cyan** | `#0891B2` | Regex highlighting, git renamed resources, and other quiet cyan/info-adjacent accents |
 | **Blue-Cyan** | `#2563EB` | Type parameters |
 | **Blue-Cyan** | `#0D9488` | Primary accent family |
 | **Blue-Cyan** | `#0369A1` | Types, interfaces, info states |
@@ -196,6 +196,11 @@ These role names should remain stable even if concrete hex values change.
 - `terminal-selection-active`
 - `terminal-selection-inactive`
 - `terminal-find-match`
+- `selection-related`
+- `current-line`
+- `fold-region`
+- `bracket-match`
+- `bracket-guide`
 
 ## Editor State Hierarchy
 
@@ -220,7 +225,7 @@ Rules:
 
 ## Syntax and Semantic Intent
 
-The theme should preserve the following semantic distinctions:
+The theme should preserve the following semantic distinctions when the relevant semantic tokens are enabled:
 
 - types vs functions vs properties
 - parameters vs variables
@@ -228,8 +233,9 @@ The theme should preserve the following semantic distinctions:
 - strings vs regex vs numbers
 
 Variables should stay foreground-adjacent and calm, but they should not be identical to the default foreground when semantic highlighting is enabled.
-Parameters should be distinct from both variables and macros. Prefer a quieter cyan/info-family treatment over the directive green family.
+Parameters should be distinct from both variables and macros when the parameter role is enabled. Prefer a quieter cyan/info-family treatment over the directive green family.
 Parameters should also stay quieter than types, type parameters, and keywords. They should read as supporting structure, not as primary emphasis.
+Readonly and default-library modifiers are desired distinctions, but they may remain disabled until they can be introduced without colliding with the existing type, keyword, and property families.
 Regex and numbers should remain distinguishable from strings and functions even when they share adjacent warm or cool families.
 
 If `semanticHighlighting` is enabled, semantic roles should reinforce structure rather than collapse into the default foreground.
@@ -269,7 +275,7 @@ Recommended defaults for common states:
 - `selection-inactive`: usually `1A` to `33`
 - `find-match`: usually `40` to `66`, and not weaker than `selection-active`
 - `word-highlight` and `range-highlight`: usually `1A` to `33`
-- `current-line` and `fold-region`: usually `1A`
+- `current-line` and `fold-region`: usually `08` to `1A`
 - bracket guides: usually `1F` to `33`
 - active bracket guides: usually `66`
 - terminal active selection: may use `66` when `40` is too weak in practice
