@@ -25,6 +25,7 @@ languages
 # -----------------------------
 # tooling
 # -----------------------------
+.agents
 .commitlintrc
 .github
 .gitignore
@@ -32,3 +33,4 @@ lerna.json
 lefthook.yaml
 pnpm-lock.yaml
 pnpm-workspace.yaml
+tsconfig.json
