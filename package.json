@@ -1,14 +1,15 @@
 {
   "name": "theme-zen",
   "version": "2.0.1",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.33.0",
+  "type": "module",
   "engines": {
     "vscode": "^1.60.0"
   },
   "author": "Joie <leaps@live.com>",
   "publisher": "using",
   "displayName": "Zen Theme",
-  "description": "A fleet like theme for VS Code.",
+  "description": "A calm, Fleet-inspired VS Code theme with clear contrast and restrained color roles.",
   "icon": "assets/icon.png",
   "categories": [
     "Themes"
@@ -37,11 +38,12 @@
     "publish": "vsce publish --no-dependencies"
   },
   "devDependencies": {
-    "@commitlint/cli": "^20.2.0",
-    "@commitlint/config-conventional": "^20.2.0",
-    "@lerna-lite/cli": "^4.10.2",
-    "@lerna-lite/version": "^4.10.2",
+    "@commitlint/cli": "^20.5.0",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@lerna-lite/cli": "^5.0.0",
+    "@lerna-lite/version": "^5.0.0",
+    "@types/node": "^25.6.0",
     "@vscode/vsce": "^3.7.1",
-    "lefthook": "^2.0.12"
+    "lefthook": "^2.1.5"
   }
 }
