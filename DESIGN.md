@@ -4,6 +4,7 @@ This file is the repository-level source of truth for the Zen theme's color deci
 
 `themes/dark.json` and `themes/light.json` contain the final implementation.
 This document explains the intended role boundaries, state hierarchy, and dark/light mapping so future edits can be reviewed against a stable design model.
+If a generic review skill or checklist suggests a conflicting default, this document wins.
 
 ## Goals
 

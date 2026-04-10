@@ -1,87 +1,71 @@
 ---
 name: vscode-theme-color-system
-description: Audit and improve VS Code theme color systems, especially `themes/*.json` files and related TypeScript or Node build scripts. Use when Codex needs to review palette consistency, editor state hierarchy, TextMate or semantic token coverage, dark/light parity, issue-driven color regressions, align colors with the official VS Code theme color reference, or extract hand-written theme JSON into a maintainable generation workflow.
+description: Audit and improve VS Code themes as a coherent color system. Use for workbench color reviews, editor-state contrast, token and semantic coverage, dark/light parity, and issue-driven regressions.
 ---
 
 # VS Code Theme Color System
 
-## Overview
+Treat a theme as a role system, not a bag of hex values. Keep the theme's identity unless the user explicitly asks for a redesign.
 
-Review a VS Code theme as a system, not as isolated hex values. Identify inconsistent color roles, weak editor-state contrast, missing token coverage, and dark/light drift, then either patch the theme directly or centralize shared rules into a TypeScript or Node-based generator.
+## Use This Skill For
 
-## Workflow
+- auditing `themes/*.json`
+- fixing inconsistent workbench or editor-state colors
+- reviewing `tokenColors` and `semanticTokenColors`
+- checking dark/light parity
+- validating theme keys against official VS Code docs
 
-1. Inspect the repository shape first.
-Look for `DESIGN.md`, `themes/*.json`, `package.json`, and any existing theme tooling.
+## Working Mode
 
-2. Treat `DESIGN.md` as the local source of truth when it exists.
-Explain both:
-- where the implementation diverges from the design intent
-- where the design intent itself may need improvement
+1. Scan the repo.
+Look for `DESIGN.md`, `themes/*.json`, `package.json`, and any existing theme scripts.
+
+2. Choose the source of truth.
+If `DESIGN.md` exists, treat it as the local contract. Call out:
+- where theme files diverge from the design intent
+- where the design intent itself seems weak or incomplete
 - which `DESIGN.md` section each important finding maps to
-- which items from `DESIGN.md`'s `Review Checklist` still require visual confirmation
+- which `Review Checklist` items still need visual confirmation
+If repository design guidance conflicts with generic skill defaults, follow the repository document.
 
-3. Validate workbench color IDs against the official VS Code theme color reference.
-Use `references/official-sources.md`.
+3. Validate keys before judging them.
+Use `references/official-sources.md` before saying a workbench color key is wrong, missing, or obsolete.
 
-4. Review the theme in four layers:
-- UI colors and surfaces
+4. Review in this order:
+- workbench/UI colors
 - editor states
 - `tokenColors`
 - `semanticTokenColors`
+- dark/light parity
 
-5. Preserve identity while increasing structure.
-Do not redesign the palette unless asked. Default to keeping hue families and improving role assignment, hierarchy, and maintainability.
+## Fast Heuristics
 
-## Review Heuristics
+- Repeated low-alpha fills across several editor states usually indicate collapsed hierarchy.
+- Brackets are a system: inactive guides can be subtle, but active guides and bracket-match cues must still read clearly.
+- Missing or commented-out semantic roles usually mean missing intent, not intentional minimalism.
+- Near-mirrored dark/light theme files may justify consolidating shared logic if hand maintenance becomes error-prone.
 
-- Treat repeated low-alpha neutrals across many editor states as a likely design bug.
-- Treat bracket colors as a system: neutral gray ladders are acceptable if active guides and bracket match cues still read clearly.
-- Treat commented-out semantic roles as missing system intent until proven otherwise.
-- Treat mirrored dark/light JSON files as a cue to centralize shared rules.
-- Prefer explicit role names over raw color reuse when introducing a generator.
+## If You Are Auditing
 
-## Implementation Pattern
+- Use `scripts/audit-theme.ts` for a quick structural scan before manual review.
+- Prefer `--design-doc=DESIGN.md` so findings can cite repository design sections.
+- Use `--format=summary` for a short report and `--format=json` only when another script needs machine-readable output.
+- Use the response shape in `references/output-format.md` unless the user asks for a different format.
 
-When converting hand-written themes into a system:
+## Hard Rules
 
-1. Keep the existing generated files in `themes/` as outputs.
-2. Add a small build script, usually `scripts/generate-themes.ts` or `scripts/generate-themes.mjs`.
-3. Define palette objects per variant, such as `dark` and `light`.
-4. Define shared builders for:
-- editor state colors
-- bracket ladder colors
-- TextMate token roles
-- semantic token roles
-5. Write the generated JSON back to the existing theme paths.
-6. Add a package script such as `build:themes`.
-7. Document the generation entrypoint in the repository if the project is meant to be maintained by humans.
-
-Prefer TypeScript or plain Node scripts over Python unless the user explicitly asks for Python.
-
-## Execution Notes
-
-- Use `references/role-model.md` when translating raw hex assignments into stable color roles.
-- Use `references/review-checklist.md` for a thorough manual pass.
-- Prefer `rg --files` and `rg -n` to map theme structure and repeated color usage.
-- Prefer `DESIGN.md` over ad hoc inference when the repository defines one.
-- If `DESIGN.md` contains a `Review Checklist` section, use it as the final close-out checklist after the structural audit.
-- Prefer official VS Code docs over memory when validating workbench color keys.
-- If issue links or user reports are provided, inspect them and map the complaint back to the corresponding theme keys.
-- When changing colors, update both dark and light variants in the same pass unless the request is explicitly variant-specific.
-- Use `scripts/audit-theme.ts` for a fast structural scan before manual review.
-- Prefer `--design-doc=DESIGN.md` so findings cite repository design sections directly.
-- Prefer `--official-source=https://code.visualstudio.com/api/references/theme-color` when network access is available, or point it at a saved local copy.
-- Use `--format=json` when the audit output needs to be consumed by another script.
-- Use `--format=summary` for a short issue- or PR-ready result.
-
-## Output Expectations
-
-Use the default response shape in `references/output-format.md`.
+- Preserve palette identity unless the user asked for a redesign.
+- Update dark and light variants together unless the task is explicitly single-variant.
+- Prefer `DESIGN.md` over ad hoc inference when it exists.
+- Prefer repository design rules over generic reference defaults when they conflict.
+- Prefer official VS Code docs over memory for color-key validation.
+- Use `references/role-model.md` as a generic vocabulary aid, not as a repository-specific design spec.
+- Use `references/review-checklist.md` as a generic review index; use the repository checklist as the final standard when one exists.
+- If the user reports a bug, map the complaint back to concrete theme keys before changing colors.
 
 ## References
 
-- For a full review checklist, read `references/review-checklist.md`.
-- For official source links, read `references/official-sources.md`.
-- For role naming and state boundaries, read `references/role-model.md`.
-- For the default response structure, read `references/output-format.md`.
+- `references/review-checklist.md`: generic review dimensions
+- `references/official-sources.md`: official VS Code sources
+- `references/role-model.md`: generic role vocabulary
+- `references/output-format.md`: default response structure

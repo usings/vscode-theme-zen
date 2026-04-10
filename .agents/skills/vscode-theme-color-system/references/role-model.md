@@ -1,8 +1,10 @@
 # Role Model
 
-Use these names when reasoning about a VS Code theme as a system. The exact hex values can vary by theme; the role boundaries should stay clear.
+Use these names when reasoning about a theme as a role system. Hex values can vary; role boundaries should not.
 
-## Core Semantic Roles
+This file is intentionally generic. If a repository defines its own role model in `DESIGN.md`, treat the repository document as the source of truth.
+
+## Core Roles
 
 - `foreground`: default readable text
 - `foreground-strong`: highest emphasis text
@@ -20,11 +22,11 @@ Use these names when reasoning about a VS Code theme as a system. The exact hex 
 - `regexp`: regex literals
 - `directive`: macros, directives, special annotations
 
-## Editor State Roles
+## Editor-State Roles
 
 - `selection-active`: active editor selection
 - `selection-inactive`: inactive editor selection
-- `selection-related`: related-selection or secondary selection context
+- `selection-related`: related selection or secondary-selection context
 - `current-line`: current line emphasis
 - `word-highlight`: symbol or reference highlight
 - `range-highlight`: transient highlighted range
@@ -34,11 +36,11 @@ Use these names when reasoning about a VS Code theme as a system. The exact hex 
 - `bracket-match`: explicit matching bracket
 - `bracket-ladder`: nested bracket depth structure, whether achieved by hue or restrained neutrals
 
-## Practical Rules
+## Minimum Distinctions
 
 - `selection-active` must stand apart from `current-line`.
 - `selection-inactive` must be visibly weaker than `selection-active`.
 - `word-highlight` should not be confused with search matches.
 - `find-match` should usually be stronger than `word-highlight`.
-- `type`, `function`, and `property` should each be distinguishable in dense code.
-- `foreground`, `variable`, and `property` should not collapse into one tone unless the theme is intentionally minimal and the user explicitly wants that tradeoff.
+- `type`, `function`, and `property` should usually be distinguishable in dense code.
+- avoid collapsing too many semantic roles back into the default foreground unless the theme intentionally favors minimal structure.

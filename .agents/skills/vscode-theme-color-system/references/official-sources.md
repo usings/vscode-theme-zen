@@ -1,17 +1,13 @@
 # Official Sources
 
-Use these sources before declaring a VS Code theme key invalid, missing, or outdated.
+Use these before declaring a VS Code theme key invalid, missing, or outdated.
 
 ## Primary
 
-- Theme color reference:
-  https://code.visualstudio.com/api/references/theme-color
-- Color theme guide:
-  https://code.visualstudio.com/api/extension-guides/color-theme
-- Semantic highlight guide:
-  https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide
-- Syntax highlight guide:
-  https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
+- Theme color reference: https://code.visualstudio.com/api/references/theme-color
+- Color theme guide: https://code.visualstudio.com/api/extension-guides/color-theme
+- Semantic highlight guide: https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide
+- Syntax highlight guide: https://code.visualstudio.com/api/language-extensions/syntax-highlight-guide
 
 ## How to Use Them
 
