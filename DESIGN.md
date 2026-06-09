@@ -44,19 +44,25 @@ Use neutrals for surfaces, text hierarchy, borders, and low-emphasis structure.
 Assign each hue family a stable purpose:
 
 - accent cyan/teal:
-  primary interaction, cursor, active borders, primary selection language
+  primary interaction, cursor, active borders, editor/terminal active selection, accepted or resolved states
 - info blue:
-  type-like structure, info states, secondary emphasis
+  type-like structure, info states, secondary emphasis, modified resources
+- parameter quiet-cyan:
+  parameters and supporting code structure that should stay quieter than types and keywords
 - property purple:
   properties, enum members, object keys, secondary code structure
 - string magenta:
   string literals and inline textual emphasis
+- variable rose/pink:
+  language variables such as `this` or `self`, debug values, color symbols, blockquotes
 - function amber:
   callable symbols and numeric literals
 - directive green:
   macros, directives, special annotations
 - warning gold:
-  decorators, warnings, inline caution states
+  decorators, warnings, inline caution states, find-match/search highlights
+- conflict orange:
+  unresolved merge conflicts and conflict-heavy SCM states
 - error red:
   invalid code, diagnostics, error states
 
@@ -66,6 +72,7 @@ When a concrete token or UI element does not fit neatly into one semantic family
 
 Use this section as the exact palette reference when changing concrete values.
 The usage column is illustrative, not normative. Treat it as examples of current usage, not permission to override the role model.
+Palette families are grouped by hue, so they are not a one-to-one mapping to the semantic families above. A single hue bucket can contain distinct roles such as conflict orange, warning gold, function amber, and component emphasis.
 
 ### Dark Base Palette
 
@@ -79,16 +86,18 @@ The usage column is illustrative, not normative. Treat it as examples of current
 | **Neutral Gray** | `#6C6C6C` | Placeholder text, de-emphasized elements |
 | **Neutral Gray** | `#8A8A8A` | Inactive foreground, icons, soft accents, line numbers |
 | **Neutral Gray** | `#BCBCBC` | Primary text foreground |
+| **Neutral Gray** | `#C3C5C9` | Semantic variable foreground, foreground-adjacent but distinct from default text |
 | **Neutral Gray** | `#FFFFFF` | Maximum contrast highlights, focused text |
 | **Blue-Cyan** | `#6AB8C0` | Regex highlighting, git renamed resources, and other quiet cyan/info-adjacent accents |
+| **Blue-Cyan** | `#5CA7AE` | Parameter quiet-cyan when the parameter semantic role is enabled |
 | **Blue-Cyan** | `#71A3EF` | Type parameters |
 | **Blue-Cyan** | `#81D2CE` | Primary accent family |
-| **Blue-Cyan** | `#87C3FF` | Types, interfaces, info states |
+| **Blue-Cyan** | `#87C3FF` | Types, interfaces, info states, modified resources |
 | **Purple/Violet** | `#BBAAFF` | Properties, enum members, keys |
 | **Purple/Violet** | `#E394DC` | Strings |
 | **Rose/Pink** | `#CC7C8A` | Language variables such as `this` or `self` |
 | **Rose/Pink** | `#DD99AA` | Debug tokens, color symbols, blockquotes |
-| **Warm Yellow/Orange** | `#DD9A6A` | Conflict-heavy UI states and merge-related warnings |
+| **Warm Yellow/Orange** | `#DD9A6A` | Conflict-heavy UI states and unresolved merge conflicts |
 | **Warm Yellow/Orange** | `#E09B70` | Framework or component identifiers when they need function-adjacent emphasis |
 | **Warm Yellow/Orange** | `#E7D38F` | Warnings, decorators, inline values |
 | **Warm Yellow/Orange** | `#EBC88D` | Functions, methods, numeric constants |
@@ -106,17 +115,19 @@ The usage column is illustrative, not normative. Treat it as examples of current
 | **Neutral Gray** | `#A0A0A0` | Borders, inactive UI, low-contrast foreground |
 | **Neutral Gray** | `#939393` | Placeholder text, de-emphasized elements |
 | **Neutral Gray** | `#757575` | Inactive foreground, icons, soft accents, line numbers |
+| **Neutral Gray** | `#525252` | Semantic variable foreground, foreground-adjacent but distinct from default text |
 | **Neutral Gray** | `#404040` | Primary text foreground |
 | **Neutral Gray** | `#000000` | Maximum contrast highlights, focused text |
 | **Blue-Cyan** | `#0891B2` | Regex highlighting, git renamed resources, and other quiet cyan/info-adjacent accents |
+| **Blue-Cyan** | `#0F7C8F` | Parameter quiet-cyan when the parameter semantic role is enabled |
 | **Blue-Cyan** | `#2563EB` | Type parameters |
 | **Blue-Cyan** | `#0D9488` | Primary accent family |
-| **Blue-Cyan** | `#0369A1` | Types, interfaces, info states |
+| **Blue-Cyan** | `#0369A1` | Types, interfaces, info states, modified resources |
 | **Purple/Violet** | `#7C3AED` | Properties, enum members, keys |
 | **Purple/Violet** | `#A21CAF` | Strings |
 | **Rose/Pink** | `#BE123C` | Language variables such as `this` or `self` |
 | **Rose/Pink** | `#BE185D` | Debug tokens, color symbols, blockquotes |
-| **Warm Yellow/Orange** | `#C2410C` | Conflict-heavy UI states and component-like identifiers when stronger emphasis is needed |
+| **Warm Yellow/Orange** | `#C2410C` | Conflict-heavy UI states and unresolved merge conflicts |
 | **Warm Yellow/Orange** | `#CA8A04` | Warnings, decorators, inline values |
 | **Warm Yellow/Orange** | `#D97706` | Functions, methods, numeric constants |
 | **Green** | `#16A34A` | Directives, macros, CSS important, and other explicit annotation-like roles |
@@ -143,6 +154,7 @@ Dark:
 - bright cyan `#779E9E`
 - white `#C3C5C9`
 - bright black `#898E94`
+- bright white `#BCBCBC`
 
 Light:
 - black `#939393`
@@ -169,9 +181,24 @@ Terminal interaction rules:
 - terminal inactive selection should remain visible and neutral, not disappear back into the background.
 - in light themes, ANSI neutral slots must stay readable against the terminal background; do not let `ansiBlack` collapse into the surface color.
 
+### Workbench Role Mapping
+
+Workbench colors should preserve the same semantic model as editor tokens, but they can use quieter neutral selection for repeated list-like controls.
+
+- editor and terminal active selection use the accent family.
+- global selection and list-like selection may use neutral overlays when accent would make dense UI feel too loud.
+- added and untracked resources use the accent family.
+- modified resources use the info blue family.
+- deleted resources use the error red family.
+- unresolved conflicts use conflict orange; handled or accepted conflict states use the accent family.
+- find-match and search highlights use warning gold, including editor, terminal, peek, minimap, and overview ruler markers.
+- chart colors should follow their label when the chart itself communicates semantic categories. Workbench green may intentionally fold into the accent family when the state means success, accepted, resolved, or primary action rather than directive syntax.
+- foregrounds on filled status items should be chosen by rendered contrast, not by theme type alone. Strong accent and warning fills may need the deepest neutral foreground even in dark themes, and light warning fills should use the deepest neutral foreground rather than white.
+
 ## Role Model
 
 These role names should remain stable even if concrete hex values change.
+`global-selection` names the UI context for app-wide/list-like selection. `selection-neutral` names the visual treatment often used for that context when accent selection would be too loud.
 
 - `foreground`
 - `foreground-strong`
@@ -193,11 +220,13 @@ These role names should remain stable even if concrete hex values change.
 - `type-parameter`
 - `number`
 - `regexp`
+- `global-selection`
 - `terminal-cursor`
 - `terminal-selection-active`
 - `terminal-selection-inactive`
 - `terminal-find-match`
 - `selection-related`
+- `selection-neutral`
 - `current-line`
 - `fold-region`
 - `bracket-match`
@@ -218,6 +247,7 @@ Rules:
 
 - `selection-active` must be stronger than `selection-inactive`.
 - `selection-active` must not equal `current-line`.
+- `editor.selectionBackground` and `terminal.selectionBackground` should use the accent family; global UI selection may be quieter and neutral.
 - `word-highlight` and `find-match` must not share the same color.
 - `find-match` should prefer the warning/gold family so explicit search results do not blur into the accent-colored selection layer.
 - `current-line` should be visible but quieter than explicit user actions.
@@ -273,6 +303,7 @@ Avoid using the same low-alpha neutral for multiple unrelated editor states.
 Recommended defaults for common states:
 
 - `selection-active`: usually `40` to `66`
+- `global-selection`: usually `26` to `40`
 - `selection-inactive`: usually `1A` to `33`
 - `find-match`: usually `40` to `66`, and not weaker than `selection-active`
 - `word-highlight` and `range-highlight`: usually `1A` to `33`
