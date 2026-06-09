@@ -1,6 +1,6 @@
 {
   "name": "theme-zen",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "packageManager": "pnpm@10.33.0",
   "type": "module",
   "engines": {
